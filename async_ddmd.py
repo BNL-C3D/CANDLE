@@ -20,7 +20,6 @@ class AsyncPipelineManager:
             self.generate_molecular_dynamics_pipeline(),
             self.generate_aggregating_pipeline(),
             self.generate_machine_learning_pipeline(),
-            self.generate_model_selection_pipeline(),
             self.generate_agent_pipeline(),
         ]
         return pipelines
