@@ -4,6 +4,10 @@
 
 ### ORNL Summit
 
+```
+/gpfs/alpine/world-shared/chm155/hrlee/conda/openmm/bin/python
+```
+
 ### LLNL Lassen 
 
 ```
@@ -11,6 +15,11 @@
 ```
 
 ## Aggregator
+
+### ORNL Summit
+```
+/gpfs/alpine/world-shared/chm155/hrlee/conda/pytorch-1.6.0_cudnn-8.0.2.39_nccl-2.7.8-1_static_mlperf/bin/python
+```
 
 ### LLNL Lassen 
 ```
@@ -20,6 +29,11 @@
 
 ## Training
  
+### ORNL Summit
+```
+/gpfs/alpine/world-shared/chm155/hrlee/conda/pytorch-1.6.0_cudnn-8.0.2.39_nccl-2.7.8-1_static_mlperf/bin/python
+```
+
 ### LLNL Lassen 
 
 ```
@@ -27,6 +41,11 @@
 ```
 
 ## Outlier
+
+### ORNL Summit
+```
+/gpfs/alpine/world-shared/chm155/hrlee/conda/pytorch-1.6.0_cudnn-8.0.2.39_nccl-2.7.8-1_static_mlperf/bin/python
+```
 
 ### LLNL Lassen 
 
