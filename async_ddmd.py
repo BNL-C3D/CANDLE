@@ -18,7 +18,7 @@ class AsyncPipelineManager:
     def generate_pipelines(self) -> List[Pipeline]:
         pipelines = [
             self.generate_molecular_dynamics_pipeline(),
-            self.generate_aggregating_pipeline(),
+            self.generate_aggregation_pipeline(),
             self.generate_machine_learning_pipeline(),
             self.generate_agent_pipeline(),
         ]
@@ -40,7 +40,7 @@ class AsyncPipelineManager:
 
         return pipeline
 
-    def generate_aggregating_pipeline(self) -> Pipeline:
+    def generate_aggregation_pipeline(self) -> Pipeline:
         stage = Stage()
         stage.name = "Aggregation"
         cfg = self.cfg.aggregation_stage
