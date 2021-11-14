@@ -1,0 +1,33 @@
+#time,event,comp,thread,uid,state,msg
+1636840584.8937731,sync_abs,update.0000,MainThread,,,batch1.summit.olcf.ornl.gov:10.134.0.41:1636840584.8933544:1636840584.9057374:ntp
+1636840584.8951297,comp_start,update.0000,MainThread,update.0000,,
+#time,event,comp,thread,uid,state,msg
+1636840585.0284264,sync_abs,update.0000,MainThread,,,batch1.summit.olcf.ornl.gov:10.134.0.41:1636840585.0282698:1636840585.0406528:ntp
+1636840585.0284696,init1,update.0000,MainThread,update.0000,,/gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/re.session.login1.litan.018944.0006/pilot.0000
+1636840585.0541859,component_init,update.0000,Thread-1,,,
+1636840586.1835103,update_pushed,update.0000,Thread-3,,,bulk size: 1
+1636840600.3285210,update_pushed,update.0000,Thread-3,,,bulk size: 105
+1636840602.1382303,update_pushed,update.0000,Thread-4,,,bulk size: 322
+1636840611.1977909,update_pushed,update.0000,Thread-3,,,bulk size: 1
+1636840613.1529047,update_pushed,update.0000,Thread-4,,,bulk size: 2
+1636840620.5271366,update_pushed,update.0000,Thread-3,,,bulk size: 1
+1636840622.2292216,update_pushed,update.0000,Thread-4,,,bulk size: 239
+1636840623.2326119,update_pushed,update.0000,Thread-4,,,bulk size: 3
+1636840633.2073531,update_pushed,update.0000,Thread-3,,,bulk size: 1
+1636840634.2474086,update_pushed,update.0000,Thread-4,,,bulk size: 2
+1636840644.1401811,update_pushed,update.0000,Thread-3,,,bulk size: 1
+1636840645.2623725,update_pushed,update.0000,Thread-4,,,bulk size: 5
+1636840655.1738925,update_pushed,update.0000,Thread-3,,,bulk size: 1
+1636840656.2771719,update_pushed,update.0000,Thread-4,,,bulk size: 2
+1636840666.2051966,update_pushed,update.0000,Thread-3,,,bulk size: 1
+1636840667.2919443,update_pushed,update.0000,Thread-4,,,bulk size: 2
+1636840672.2225053,update_pushed,update.0000,Thread-3,,,bulk size: 1
+1636840673.3013837,update_pushed,update.0000,Thread-4,,,bulk size: 4
+1636840677.2375433,update_pushed,update.0000,Thread-3,,,bulk size: 1
+1636840678.3093154,update_pushed,update.0000,Thread-4,,,bulk size: 2
+1636840682.2521195,update_pushed,update.0000,Thread-3,,,bulk size: 1
+1636840683.3586805,update_pushed,update.0000,Thread-4,,,bulk size: 140
+1636840687.4880297,update_pushed,update.0000,Thread-3,,,bulk size: 1
+1636840689.3676670,update_pushed,update.0000,Thread-4,,,bulk size: 2
+1636840709.0016112,component_final,update.0000,Thread-1,,,
+1636840709.0023987,END,update.0000,Thread-1,,,

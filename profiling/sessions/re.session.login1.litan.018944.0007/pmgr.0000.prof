@@ -1,0 +1,12 @@
+#time,event,comp,thread,uid,state,msg
+1636840789.6371050,sync_abs,pmgr.0000,MainThread,,,login1.summit.olcf.ornl.gov:10.134.0.31:1636840789.6367753:1636840789.6378253:ntp
+1636840789.6376128,init1,pmgr.0000,MainThread,pmgr.0000,,/gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/CANDLE/re.session.login1.litan.018944.0007
+1636840789.6396835,component_init,pmgr.0000,Thread-4,,,
+1636840792.7695715,setup_done,pmgr.0000,MainThread,pmgr.0000,,
+1636840793.8825300,advance,pmgr.0000,MainThread,pilot.0000,NEW,
+1636840793.8855550,advance,pmgr.0000,MainThread,pilot.0000,PMGR_LAUNCHING_PENDING,
+1636840793.8857968,put,pmgr.0000,MainThread,pilot.0000,PMGR_LAUNCHING_PENDING,pmgr_launching_queue.put.0000
+1636840793.9146769,advance,pmgr.0000,Thread-12,pilot.0000,PMGR_LAUNCHING,
+1636840801.0884857,advance,pmgr.0000,Thread-12,pilot.0000,PMGR_ACTIVE_PENDING,
+1636840886.0410831,advance,pmgr.0000,Thread-10,pilot.0000,PMGR_ACTIVE,
+1636841069.2074881,advance,pmgr.0000,Thread-10,pilot.0000,CANCELED,

@@ -1,0 +1,7 @@
+#time,event,comp,thread,uid,state,msg
+1636840591.6157463,sync_abs,tmgr_staging_output.0000,MainThread,,,login1.summit.olcf.ornl.gov:10.134.0.31:1636840591.615398:1636840591.6190767:ntp
+1636840591.6172941,comp_start,tmgr_staging_output.0000,MainThread,tmgr_staging_output.0000,,
+#time,event,comp,thread,uid,state,msg
+1636840591.8391616,sync_abs,tmgr_staging_output.0000,MainThread,,,login1.summit.olcf.ornl.gov:10.134.0.31:1636840591.8389773:1636840591.8426561:ntp
+1636840591.8392344,init1,tmgr_staging_output.0000,MainThread,tmgr_staging_output.0000,,/gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/CANDLE/re.session.login1.litan.018944.0006
+1636840591.8436141,component_init,tmgr_staging_output.0000,Thread-1,,,

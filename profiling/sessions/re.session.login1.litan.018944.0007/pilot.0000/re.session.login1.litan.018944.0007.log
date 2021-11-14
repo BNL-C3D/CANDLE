@@ -1,0 +1,254 @@
+1636840879.429 : re.session.login1.litan.018944.0007 : 3450991 : 35184372370176 : INFO     : radical.pilot version: 1.9.2
+1636840879.429 : re.session.login1.litan.018944.0007 : 3450991 : 35184372370176 : INFO     : radical.saga  version: 1.8.0
+1636840879.429 : re.session.login1.litan.018944.0007 : 3450991 : 35184372370176 : INFO     : radical.utils version: 1.8.4
+1636840879.576 : re.session.login1.litan.018944.0007 : 3450991 : 35184372370176 : INFO     : Configuring ResourceManager LSF_SUMMIT.
+1636840879.576 : re.session.login1.litan.018944.0007 : 3450991 : 35184372370176 : INFO     : LSB_DJOB_HOSTFILE: /ccs/home/litan/.lsbatch/1636840801.1622447.hostfile
+1636840879.577 : re.session.login1.litan.018944.0007 : 3450991 : 35184372370176 : DEBUG    : found 16 nodes: {'d19n13': 42, 'd19n14': 42, 'd19n15': 42, 'd19n16': 42, 'd19n17': 42, 'd19n18': 42, 'd20n01': 42, 'd20n02': 42, 'g33n03': 42, 'g35n04': 42, 'g35n05': 42, 'g35n06': 42, 'g35n07': 42, 'g35n08': 42, 'h50n02': 42, 'h50n08': 42}
+1636840879.577 : re.session.login1.litan.018944.0007 : 3450991 : 35184372370176 : DEBUG    : found 16 nodes with 42 cores
+1636840879.577 : re.session.login1.litan.018944.0007 : 3450991 : 35184372370176 : DEBUG    : node list: [['d19n13', '1'],
+ ['d19n14', '2'],
+ ['d19n15', '3'],
+ ['d19n16', '4'],
+ ['d19n17', '5'],
+ ['d19n18', '6'],
+ ['d20n01', '7'],
+ ['d20n02', '8'],
+ ['g33n03', '9'],
+ ['g35n04', '10'],
+ ['g35n05', '11'],
+ ['g35n06', '12'],
+ ['g35n07', '13'],
+ ['g35n08', '14'],
+ ['h50n02', '15'],
+ ['h50n08', '16']]
+1636840879.577 : re.session.login1.litan.018944.0007 : 3450991 : 35184372370176 : INFO     : Discovered execution environment: [['d19n13', '1'], ['d19n14', '2'], ['d19n15', '3'], ['d19n16', '4'], ['d19n17', '5'], ['d19n18', '6'], ['d20n01', '7'], ['d20n02', '8'], ['g33n03', '9'], ['g35n04', '10'], ['g35n05', '11'], ['g35n06', '12'], ['g35n07', '13'], ['g35n08', '14'], ['h50n02', '15'], ['h50n08', '16']]
+1636840879.581 : re.session.login1.litan.018944.0007 : 3450991 : 35184372370176 : INFO     : ResourceManager config hook for LaunchMethod JSRUN: <class 'radical.pilot.agent.launch_method.jsrun.JSRUN'>
+1636840879.581 : re.session.login1.litan.018944.0007 : 3450991 : 35184372370176 : INFO     : ResourceManager config hook succeeded (JSRUN)
+1636840883.257 : re.session.login1.litan.018944.0007 : 3451267 : 35184372370176 : INFO     : radical.pilot version: 1.9.2
+1636840883.257 : re.session.login1.litan.018944.0007 : 3451267 : 35184372370176 : INFO     : radical.saga  version: 1.8.0
+1636840883.258 : re.session.login1.litan.018944.0007 : 3451267 : 35184372370176 : INFO     : radical.utils version: 1.8.4
+1636840883.480 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : create LaunchMethod: <class 'radical.pilot.agent.launch_method.jsrun.JSRUN'>
+1636840883.482 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : create LaunchMethod: <class 'radical.pilot.agent.launch_method.jsrun.JSRUN'>
+1636840883.656 : re.session.login1.litan.018944.0007 : 3451331 : 35184372370176 : INFO     : radical.pilot version: 1.9.2
+1636840883.656 : re.session.login1.litan.018944.0007 : 3451331 : 35184372370176 : INFO     : radical.saga  version: 1.8.0
+1636840883.656 : re.session.login1.litan.018944.0007 : 3451331 : 35184372370176 : INFO     : radical.utils version: 1.8.4
+1636840884.069 : re.session.login1.litan.018944.0007 : 3451393 : 35184372370176 : INFO     : radical.pilot version: 1.9.2
+1636840884.069 : re.session.login1.litan.018944.0007 : 3451393 : 35184372370176 : INFO     : radical.saga  version: 1.8.0
+1636840884.069 : re.session.login1.litan.018944.0007 : 3451393 : 35184372370176 : INFO     : radical.utils version: 1.8.4
+1636840884.466 : re.session.login1.litan.018944.0007 : 3451449 : 35184372370176 : INFO     : radical.pilot version: 1.9.2
+1636840884.466 : re.session.login1.litan.018944.0007 : 3451449 : 35184372370176 : INFO     : radical.saga  version: 1.8.0
+1636840884.466 : re.session.login1.litan.018944.0007 : 3451449 : 35184372370176 : INFO     : radical.utils version: 1.8.4
+1636840884.874 : re.session.login1.litan.018944.0007 : 3451503 : 35184372370176 : INFO     : radical.pilot version: 1.9.2
+1636840884.874 : re.session.login1.litan.018944.0007 : 3451503 : 35184372370176 : INFO     : radical.saga  version: 1.8.0
+1636840884.874 : re.session.login1.litan.018944.0007 : 3451503 : 35184372370176 : INFO     : radical.utils version: 1.8.4
+1636840902.212 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0024
+1636840902.358 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0023
+1636840902.366 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0076
+1636840902.374 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0025
+1636840902.384 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0019
+1636840902.393 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0080
+1636840902.404 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0074
+1636840902.413 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0022
+1636840902.424 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0078
+1636840902.435 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0026
+1636840902.445 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0083
+1636840902.454 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0027
+1636840902.463 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0079
+1636840902.472 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0032
+1636840902.481 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0052
+1636840902.492 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0081
+1636840902.502 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0029
+1636840902.511 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0028
+1636840902.521 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0037
+1636840902.530 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0063
+1636840902.539 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0085
+1636840902.550 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0067
+1636840902.560 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0054
+1636840902.568 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0082
+1636840902.576 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0021
+1636840902.586 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0000
+1636840902.595 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0070
+1636840902.604 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0086
+1636840902.616 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0073
+1636840902.626 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0033
+1636840902.635 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0068
+1636840902.645 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0084
+1636840902.659 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0031
+1636840902.671 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0069
+1636840902.679 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0088
+1636840902.688 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0035
+1636840902.697 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0001
+1636840902.706 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0053
+1636840902.717 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0008
+1636840902.726 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0007
+1636840902.735 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0036
+1636840902.744 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0089
+1636840902.753 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0034
+1636840902.762 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0058
+1636840902.772 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0087
+1636840902.782 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0009
+1636840902.793 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0093
+1636840902.803 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0040
+1636840902.813 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0038
+1636840902.828 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0051
+1636840902.837 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0055
+1636840902.848 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0077
+1636840902.858 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0020
+1636840902.868 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0091
+1636840902.877 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0056
+1636840902.887 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0002
+1636840902.897 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0011
+1636840902.907 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0043
+1636840902.918 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0092
+1636840902.929 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0039
+1636840902.938 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0061
+1636840902.949 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0090
+1636840902.958 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0010
+1636840902.967 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0041
+1636840902.975 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0075
+1636840902.986 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0057
+1636840902.995 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0095
+1636840903.005 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0014
+1636840903.017 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0094
+1636840903.026 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0072
+1636840903.035 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0005
+1636840903.046 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0012
+1636840903.056 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0042
+1636840903.066 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0059
+1636840903.076 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0003
+1636840903.088 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0030
+1636840903.098 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0006
+1636840903.109 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0064
+1636840903.120 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0017
+1636840903.129 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0044
+1636840903.138 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0060
+1636840903.147 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0013
+1636840903.155 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0047
+1636840903.164 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0071
+1636840903.176 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0049
+1636840903.185 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0015
+1636840903.194 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0045
+1636840903.203 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0062
+1636840903.212 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0050
+1636840903.224 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0018
+1636840903.235 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0066
+1636840903.246 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0048
+1636840903.256 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0065
+1636840903.267 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0016
+1636840903.276 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0046
+1636840903.286 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0004
+1636840903.297 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0108
+1636840903.306 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0102
+1636840903.316 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0104
+1636840903.327 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0107
+1636840903.336 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0098
+1636840903.346 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0101
+1636840903.356 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0097
+1636840903.366 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0100
+1636840903.375 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0106
+1636840903.385 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0110
+1636840903.395 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0099
+1636840903.403 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0103
+1636840903.415 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0111
+1636840903.426 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0096
+1636840903.435 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0105
+1636840903.445 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0109
+1636840922.451 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0190
+1636840922.654 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0127
+1636840922.665 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0198
+1636840922.675 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0181
+1636840922.686 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0126
+1636840922.698 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0160
+1636840922.713 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0188
+1636840922.728 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0157
+1636840922.857 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0161
+1636840922.866 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0119
+1636840922.876 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0112
+1636840922.887 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0130
+1636840922.898 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0187
+1636840922.908 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0191
+1636840922.918 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0193
+1636840922.928 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0132
+1636840922.940 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0195
+1636840922.952 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0164
+1636840922.964 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0133
+1636840922.975 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0162
+1636840922.986 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0165
+1636840922.995 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0134
+1636840923.005 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0197
+1636840923.015 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0166
+1636840923.025 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0185
+1636840923.035 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0192
+1636840923.045 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0167
+1636840923.159 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0208
+1636840923.169 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0152
+1636840923.178 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0137
+1636840923.188 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0136
+1636840923.200 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0177
+1636840923.213 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0173
+1636840923.223 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0115
+1636840923.234 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0200
+1636840923.245 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0199
+1636840923.256 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0138
+1636840923.268 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0201
+1636840923.277 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0170
+1636840923.288 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0168
+1636840923.298 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0202
+1636840923.312 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0171
+1636840923.325 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0140
+1636840923.336 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0203
+1636840923.348 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0172
+1636840923.359 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0141
+1636840923.370 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0204
+1636840923.382 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0163
+1636840923.557 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0142
+1636840923.566 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0131
+1636840923.576 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0184
+1636840923.585 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0180
+1636840923.596 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0143
+1636840923.608 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0206
+1636840923.659 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0175
+1636840923.669 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0150
+1636840923.679 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0154
+1636840923.689 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0145
+1636840923.699 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0124
+1636840923.708 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0174
+1636840923.764 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0205
+1636840923.773 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0129
+1636840923.783 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0153
+1636840923.792 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0128
+1636840923.803 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0113
+1636840923.812 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0196
+1636840923.822 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0207
+1636840923.832 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0114
+1636840923.841 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0151
+1636840923.851 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0144
+1636840923.860 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0186
+1636840923.869 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0135
+1636840923.880 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0147
+1636840923.894 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0116
+1636840923.961 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0149
+1636840923.970 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0169
+1636840923.979 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0194
+1636840923.989 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0123
+1636840923.999 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0179
+1636840924.009 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0189
+1636840924.021 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0159
+1636840924.032 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0148
+1636840924.042 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0176
+1636840924.052 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0117
+1636840924.261 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0146
+1636840924.270 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0155
+1636840924.280 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0158
+1636840924.289 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0120
+1636840924.299 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0125
+1636840924.312 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0182
+1636840924.361 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0122
+1636840924.372 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0183
+1636840924.381 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0139
+1636840924.392 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0121
+1636840924.402 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0118
+1636840924.415 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0156
+1636841029.645 : re.session.login1.litan.018944.0007 : 3451267 : 35184653758832 : DEBUG    : prep task.0178
+1636841068.859 : re.session.login1.litan.018944.0007 : 3450991 : 35185027182960 : INFO     : no shutdown hook defined for LaunchMethod JSRUN
+1636841068.859 : re.session.login1.litan.018944.0007 : 3450991 : 35185027182960 : INFO     : ResourceManager shutdown hook succeeded (JSRUN)

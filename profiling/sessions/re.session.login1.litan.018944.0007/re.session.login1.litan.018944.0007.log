@@ -1,0 +1,315 @@
+1636840784.229 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : INFO     : radical.pilot version: 1.9.2
+1636840784.229 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : INFO     : radical.saga  version: 1.8.0
+1636840784.229 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : INFO     : radical.utils version: 1.8.4
+1636840784.344 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : INFO     : dburl mongodb://rct:****@apps.marble.ccs.ornl.gov:32020/rct_test
+1636840787.888 : re.session.login1.litan.018944.0007 : 781517 : 140735552638064 : INFO     : radical.pilot version: 1.9.2
+1636840787.888 : re.session.login1.litan.018944.0007 : 781517 : 140735552638064 : INFO     : radical.saga  version: 1.8.0
+1636840787.888 : re.session.login1.litan.018944.0007 : 781517 : 140735552638064 : INFO     : radical.utils version: 1.8.4
+1636840788.285 : re.session.login1.litan.018944.0007 : 781570 : 140736169266288 : INFO     : radical.pilot version: 1.9.2
+1636840788.285 : re.session.login1.litan.018944.0007 : 781570 : 140736169266288 : INFO     : radical.saga  version: 1.8.0
+1636840788.285 : re.session.login1.litan.018944.0007 : 781570 : 140736169266288 : INFO     : radical.utils version: 1.8.4
+1636840791.414 : re.session.login1.litan.018944.0007 : 781662 : 140736170577008 : INFO     : radical.pilot version: 1.9.2
+1636840791.414 : re.session.login1.litan.018944.0007 : 781662 : 140736170577008 : INFO     : radical.saga  version: 1.8.0
+1636840791.414 : re.session.login1.litan.018944.0007 : 781662 : 140736170577008 : INFO     : radical.utils version: 1.8.4
+1636840792.767 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840792.773 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : DEBUG    : rsup.PTYShell('fork://localhost/')
+1636840793.769 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840793.882 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : DEBUG    : sandbox base /gpfs/alpine/scratch/litan/csc299
+1636840793.884 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : DEBUG    : insert cmd: ['pilot.0000'] heartbeat {'pmgr': 'pmgr.0000'}
+1636840793.915 : re.session.login1.litan.018944.0007 : 781662 : 140735888159088 : DEBUG    : rsup.PTYShell('fork://localhost/')
+1636840794.772 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840795.181 : re.session.login1.litan.018944.0007 : 781662 : 140735888159088 : DEBUG    : sandbox base /gpfs/alpine/scratch/litan/csc299
+1636840795.775 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840796.777 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840797.781 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840798.783 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840799.786 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840800.789 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840801.811 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840802.814 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840803.817 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840804.820 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840805.823 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840806.825 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840807.827 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840808.830 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840809.833 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840810.835 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840811.838 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840812.841 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840813.843 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840814.846 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840815.848 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840816.851 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840817.854 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840818.857 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840819.859 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840820.862 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840821.865 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840822.867 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840823.870 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840824.873 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840825.876 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840826.878 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840827.881 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840828.884 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840829.886 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840830.889 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840831.892 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840832.894 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840833.897 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840834.900 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840835.902 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840836.905 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840837.908 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840838.911 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840839.913 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840840.916 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840841.919 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840842.922 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840843.924 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840844.927 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840845.930 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840846.933 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840847.935 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840848.938 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840849.941 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840850.943 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840851.946 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840852.949 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840853.951 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840854.954 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840855.957 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840856.960 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840857.963 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840858.966 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840859.969 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840860.971 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840861.974 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840862.977 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840863.980 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840864.983 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840865.985 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840866.988 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840867.991 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840868.994 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840869.996 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840870.999 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840872.002 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840873.005 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840874.007 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840875.010 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840876.013 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840877.015 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840878.018 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840879.021 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840880.024 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840881.026 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840882.029 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840883.032 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840884.035 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840885.038 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840886.041 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840887.049 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840888.074 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840889.161 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840890.153 : re.session.login1.litan.018944.0007 : 782080 : 140736061394032 : INFO     : radical.pilot version: 1.9.2
+1636840890.153 : re.session.login1.litan.018944.0007 : 782080 : 140736061394032 : INFO     : radical.saga  version: 1.8.0
+1636840890.153 : re.session.login1.litan.018944.0007 : 782080 : 140736061394032 : INFO     : radical.utils version: 1.8.4
+1636840890.236 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840890.634 : re.session.login1.litan.018944.0007 : 782129 : 140736070175856 : INFO     : radical.pilot version: 1.9.2
+1636840890.634 : re.session.login1.litan.018944.0007 : 782129 : 140736070175856 : INFO     : radical.saga  version: 1.8.0
+1636840890.634 : re.session.login1.litan.018944.0007 : 782129 : 140736070175856 : INFO     : radical.utils version: 1.8.4
+1636840891.130 : re.session.login1.litan.018944.0007 : 782194 : 140735586782320 : INFO     : radical.pilot version: 1.9.2
+1636840891.130 : re.session.login1.litan.018944.0007 : 782194 : 140735586782320 : INFO     : radical.saga  version: 1.8.0
+1636840891.130 : re.session.login1.litan.018944.0007 : 782194 : 140735586782320 : INFO     : radical.utils version: 1.8.4
+1636840891.280 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840892.376 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840893.492 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840893.963 : re.session.login1.litan.018944.0007 : 781962 : 140733847564656 : DEBUG    : bulk task insert result: {'writeErrors': [], 'writeConcernErrors': [], 'nInserted': 209, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+1636840894.108 : re.session.login1.litan.018944.0007 : 782129 : 140735787757936 : DEBUG    : rsup.PTYShell('fork://localhost/')
+1636840894.626 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840895.226 : re.session.login1.litan.018944.0007 : 782129 : 140735787757936 : DEBUG    : sandbox base /gpfs/alpine/scratch/litan/csc299
+1636840895.396 : re.session.login1.litan.018944.0007 : 782080 : 140735778976112 : DEBUG    : rsup.PTYShell('fork://localhost/')
+1636840895.712 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840896.445 : re.session.login1.litan.018944.0007 : 782080 : 140735778976112 : DEBUG    : sandbox base /gpfs/alpine/scratch/litan/csc299
+1636840896.748 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840897.850 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840898.925 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840900.007 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840901.104 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840902.162 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840903.224 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840904.316 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840905.405 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840906.478 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840907.495 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840908.589 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840909.685 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840910.775 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840911.871 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840912.964 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840913.987 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840915.096 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840916.200 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840917.221 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840918.322 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840919.417 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840920.527 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840921.619 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840922.707 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840923.798 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840924.874 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840925.940 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840927.022 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840928.101 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840929.205 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840930.321 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840931.398 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840932.507 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840933.550 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840934.659 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840935.717 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840936.756 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840937.865 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840938.948 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840940.043 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840941.136 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840942.174 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840943.255 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840944.385 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840945.501 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840946.564 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840947.664 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840948.717 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840949.812 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840950.890 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840951.925 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840952.984 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840954.063 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840955.114 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840956.149 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840957.188 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840958.237 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840959.446 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840960.568 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840961.682 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840962.801 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840963.876 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840964.925 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840966.008 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840967.087 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840968.251 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840969.340 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840970.452 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840971.549 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840972.666 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840973.728 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840974.785 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840975.894 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840977.029 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840978.130 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840979.311 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840980.564 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840981.660 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840982.771 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840983.807 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840984.819 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840985.903 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840987.021 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840988.126 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840989.303 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840990.376 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840991.468 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840992.490 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840993.580 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840994.684 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840995.742 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840996.933 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840998.138 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636840999.217 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841000.278 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841001.375 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841002.470 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841003.561 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841004.633 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841005.749 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841006.859 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841007.995 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841009.064 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841010.149 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841011.175 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841012.296 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841013.395 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841014.420 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841015.577 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841016.599 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841017.655 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841018.744 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841019.849 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841020.939 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841022.051 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841023.154 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841024.173 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841025.284 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841026.371 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841027.517 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841028.638 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841029.729 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841030.841 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841031.968 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841033.075 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841034.211 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841035.313 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841036.446 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841037.535 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841038.681 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841039.750 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841040.869 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841041.976 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841043.035 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841044.110 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841045.182 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841046.244 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841047.336 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841048.339 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841049.343 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841050.347 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841051.349 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841052.352 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841053.355 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841054.358 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841055.361 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841056.364 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841057.367 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841058.369 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841059.372 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841060.375 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841061.378 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841062.381 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841063.384 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841064.386 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841065.389 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841066.392 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841066.632 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : DEBUG    : insert cmd: ['pilot.0000'] cancel_pilot []
+1636841067.395 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841068.397 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841069.337 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : DEBUG    : session re.session.login1.litan.018944.0007 closing
+1636841069.338 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : DEBUG    : session re.session.login1.litan.018944.0007 closes pmgr   pmgr.0000
+1636841069.338 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : DEBUG    : insert cmd: ['pilot.0000'] cancel_pilot []
+1636841069.400 : re.session.login1.litan.018944.0007 : 781373 : 140734308872560 : DEBUG    : insert cmd: None heartbeat {'pmgr': 'pmgr.0000'}
+1636841069.439 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : DEBUG    : session re.session.login1.litan.018944.0007 closed pmgr   pmgr.0000
+1636841069.439 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : DEBUG    : session re.session.login1.litan.018944.0007 closes db (False)
+1636841069.440 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : DEBUG    : session re.session.login1.litan.018944.0007 closed (delete=False)
+1636841069.442 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : DEBUG    : start download
+1636841069.678 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : INFO     : session written to /gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/CANDLE/re.session.login1.litan.018944.0007/re.session.login1.litan.018944.0007.json
+1636841069.808 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : DEBUG    : Session: re.session.login1.litan.018944.0007
+1636841069.808 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : DEBUG    : Number of pilots in session: 1
+1636841069.808 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : DEBUG    : processing pilot 'pilot.0000'
+1636841070.783 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : WARNING  : profiles tarball doesnt exists!
+1636841080.198 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : INFO     : Session: re.session.login1.litan.018944.0007
+1636841080.198 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : INFO     : Number of pilots in session: 1
+1636841080.520 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : INFO     : logfiles tarball exists
+1636841080.521 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : INFO     : Fetching 'file://localhost/gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/re.session.login1.litan.018944.0007/pilot.0000/pilot.0000.log.tgz' to 'file://localhost/gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/CANDLE/re.session.login1.litan.018944.0007/'.
+1636841080.837 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : DEBUG    : Extract tarball /gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/CANDLE/re.session.login1.litan.018944.0007/pilot.0000.log.tgz to /gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/CANDLE/re.session.login1.litan.018944.0007/
+1636841080.875 : re.session.login1.litan.018944.0007 : 781373 : 140736362531952 : INFO     : tarball /gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/CANDLE/re.session.login1.litan.018944.0007/pilot.0000.log.tgz extracted to '/gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/CANDLE/re.session.login1.litan.018944.0007//pilot.0000/'.

@@ -1,0 +1,22 @@
+{
+    "base": "/gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/CANDLE",
+    "bulk_size": 1024,
+    "bulk_time": 1.0,
+    "client_sandbox": "/gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/CANDLE",
+    "cmgr": "cmgr.0000",
+    "count": 1,
+    "dburl": "mongodb://rct:rct_test@apps.marble.ccs.ornl.gov:32020/rct_test",
+    "default_dburl": "mongodb://rct:rct_test@two.radical-project.org/rct_test",
+    "heartbeat": {
+        "addr_pub": "tcp://10.134.0.31:39237",
+        "addr_sub": "tcp://10.134.0.31:34165",
+        "interval": 1.0,
+        "timeout": 60.0
+    },
+    "kind": "stager",
+    "path": "/gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/CANDLE/re.session.login1.litan.018944.0008",
+    "record": null,
+    "session_base": "/gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/CANDLE",
+    "sid": "re.session.login1.litan.018944.0008",
+    "uid": "stager.0000"
+}

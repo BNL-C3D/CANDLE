@@ -1,0 +1,21 @@
+{
+    "base": "/gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/CANDLE",
+    "bulk_collection_size": 100,
+    "bulk_collection_time": 1.0,
+    "cmgr": "cmgr.0002",
+    "count": 1,
+    "db_poll_sleeptime": 1.0,
+    "dburl": "mongodb://rct:rct_test@apps.marble.ccs.ornl.gov:32020/rct_test",
+    "heartbeat": {
+        "addr_pub": "tcp://10.134.0.31:44439",
+        "addr_sub": "tcp://10.134.0.31:36505",
+        "interval": 1.0,
+        "timeout": 60.0
+    },
+    "kind": "tmgr_scheduling",
+    "owner": "tmgr.0000",
+    "path": "/gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/CANDLE/re.session.login1.litan.018944.0006",
+    "scheduler": "round_robin",
+    "sid": "re.session.login1.litan.018944.0006",
+    "uid": "tmgr_scheduling.0000"
+}

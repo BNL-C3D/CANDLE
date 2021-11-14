@@ -1,0 +1,17 @@
+{
+    "bulk_size": 0,
+    "channel": "pmgr_launching_queue",
+    "cmgr": "cmgr.0001",
+    "heartbeat": {
+        "addr_pub": "tcp://10.134.0.31:44065",
+        "addr_sub": "tcp://10.134.0.31:33983",
+        "interval": 1.0,
+        "timeout": 60.0
+    },
+    "kind": "queue",
+    "log_level": "error",
+    "path": "/gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/CANDLE/re.session.login1.litan.018944.0008",
+    "sid": "re.session.login1.litan.018944.0008",
+    "stall_hwm": 0,
+    "uid": "pmgr_launching_queue"
+}

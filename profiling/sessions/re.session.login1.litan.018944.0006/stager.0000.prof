@@ -1,0 +1,16 @@
+#time,event,comp,thread,uid,state,msg
+1636840478.5434296,sync_abs,stager.0000,MainThread,,,login1.summit.olcf.ornl.gov:10.134.0.31:1636840478.543134:1636840478.545508:ntp
+1636840478.5448234,comp_start,stager.0000,MainThread,stager.0000,,
+#time,event,comp,thread,uid,state,msg
+1636840478.7634151,sync_abs,stager.0000,MainThread,,,login1.summit.olcf.ornl.gov:10.134.0.31:1636840478.7632318:1636840478.7656057:ntp
+1636840478.7634909,init1,stager.0000,MainThread,stager.0000,,/gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/CANDLE/re.session.login1.litan.018944.0006
+1636840478.8214676,component_init,stager.0000,Thread-1,,,
+1636840485.5331490,get,stager.0000,Thread-1,sd.0000,NEW,
+1636840485.5332060,get,stager.0000,Thread-1,sd.0001,NEW,
+1636840485.5335209,staging_start,stager.0000,Thread-1,,,sd.0000
+1636840487.8224990,staging_stop,stager.0000,Thread-1,,,sd.0000
+1636840487.8225479,staging_start,stager.0000,Thread-1,,,sd.0001
+1636840488.2384157,staging_stop,stager.0000,Thread-1,,,sd.0001
+1636840488.6375470,get,stager.0000,Thread-1,sd.0002,NEW,
+1636840488.6377928,staging_start,stager.0000,Thread-1,,,sd.0002
+1636840488.8512986,staging_stop,stager.0000,Thread-1,,,sd.0002
