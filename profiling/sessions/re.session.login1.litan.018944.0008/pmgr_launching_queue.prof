@@ -1,3 +1,0 @@
-#time,event,comp,thread,uid,state,msg
-1636841133.9071355,sync_abs,pmgr_launching_queue,MainThread,,,login1.summit.olcf.ornl.gov:10.134.0.31:1636841133.9068244:1636841133.9104555:ntp
-1636841133.9102640,bridge_start,pmgr_launching_queue,MainThread,pmgr_launching_queue,,

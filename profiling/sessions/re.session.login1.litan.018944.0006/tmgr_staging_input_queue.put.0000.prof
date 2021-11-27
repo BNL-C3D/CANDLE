@@ -1,4 +1,0 @@
-#time,event,comp,thread,uid,state,msg
-1636840591.4318421,sync_abs,tmgr_staging_input_queue.put.0000,Thread-1,,,login1.summit.olcf.ornl.gov:10.134.0.31:1636840591.43155:1636840591.4352288:ntp
-#time,event,comp,thread,uid,state,msg
-1636840591.4318421,sync_abs,tmgr_staging_input_queue.put.0000,Thread-1,,,login1.summit.olcf.ornl.gov:10.134.0.31:1636840591.43155:1636840591.4352288:ntp
