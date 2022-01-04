@@ -25,7 +25,7 @@ class AsyncPipelineManager:
         ##self.pipeline.add_stages(self.generate_agent_stage())
 
     def generate_pipeline_stages2(self):
-        self.pipeline.add_stages(self.generate_molecular_dynamics_stage())
+        self.pipeline.add_stages(self.generate_molecular_dynamics_stage2())
         self.pipeline.add_stages(self.generate_aggregation_stage())
         self.pipeline.add_stages(self.generate_machine_learning_stage())
         self.pipeline.add_stages(self.generate_agent_stage())
@@ -36,7 +36,7 @@ class AsyncPipelineManager:
             self.pipeline = Pipeline()
             self.generate_pipeline_stages()
             pipelines.append(self.pipeline)
-        sleep(25)
+        ##sleep(25)
         for _ in range(self.cfg.num_nodes):
             self.pipeline = Pipeline()
             self.generate_pipeline_stages2()
@@ -47,6 +47,18 @@ class AsyncPipelineManager:
         stage = Stage()
         stage.name = "MolecularDynamics"
         cfg = self.cfg.molecular_dynamics_stage
+
+        for task_idx in range(cfg.num_tasks):
+            #cfg.task_config.pdb_file = next(filenames)
+            task = generate_task(cfg)
+            stage.add_tasks(task)
+
+        return stage
+
+    def generate_molecular_dynamics_stage2(self) -> Stage:
+        stage = Stage()
+        stage.name = "MolecularDynamics"
+        cfg = self.cfg.molecular_dynamics_stage2
 
         for task_idx in range(cfg.num_tasks):
             #cfg.task_config.pdb_file = next(filenames)
