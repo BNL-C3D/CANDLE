@@ -1,3 +1,0 @@
-#time,event,comp,thread,uid,state,msg
-1644244099.4994893,sync_abs,tmgr_staging_input_queue,MainThread,,,login5.summit.olcf.ornl.gov:10.134.0.35:1644244099.4991763:1644244099.501238:ntp
-1644244099.5035098,bridge_start,tmgr_staging_input_queue,MainThread,tmgr_staging_input_queue,,

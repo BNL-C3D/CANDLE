@@ -1,8 +1,0 @@
-#time,event,comp,thread,uid,state,msg
-1641255962.8154316,sync_abs,cmgr.0000.hb,MainThread,,,login4.summit.olcf.ornl.gov:10.134.0.34:1641255962.8151581:1641255962.938124:ntp
-#time,event,comp,thread,uid,state,msg
-1641255962.8154316,sync_abs,cmgr.0000.hb,MainThread,,,login4.summit.olcf.ornl.gov:10.134.0.34:1641255962.8151581:1641255962.938124:ntp
-#time,event,comp,thread,uid,state,msg
-1641255962.8154316,sync_abs,cmgr.0000.hb,MainThread,,,login4.summit.olcf.ornl.gov:10.134.0.34:1641255962.8151581:1641255962.938124:ntp
-#time,event,comp,thread,uid,state,msg
-1641255962.8154316,sync_abs,cmgr.0000.hb,MainThread,,,login4.summit.olcf.ornl.gov:10.134.0.34:1641255962.8151581:1641255962.938124:ntp

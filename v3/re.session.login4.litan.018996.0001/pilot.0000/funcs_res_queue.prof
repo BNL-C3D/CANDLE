@@ -1,3 +1,0 @@
-#time,event,comp,thread,uid,state,msg
-1641259484.6505144,sync_abs,funcs_res_queue,MainThread,,,batch4.summit.olcf.ornl.gov:10.134.0.44:1641259484.6502519:1641259484.7136679:ntp
-1641259484.6541994,bridge_start,funcs_res_queue,MainThread,funcs_res_queue,,

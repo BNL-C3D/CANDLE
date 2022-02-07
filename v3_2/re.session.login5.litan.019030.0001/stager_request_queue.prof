@@ -1,3 +1,0 @@
-#time,event,comp,thread,uid,state,msg
-1644244003.2416418,sync_abs,stager_request_queue,MainThread,,,login5.summit.olcf.ornl.gov:10.134.0.35:1644244003.2413049:1644244003.243512:ntp
-1644244003.2449231,bridge_start,stager_request_queue,MainThread,stager_request_queue,,
