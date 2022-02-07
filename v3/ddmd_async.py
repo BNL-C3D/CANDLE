@@ -47,14 +47,7 @@ class AsyncPipelineManager:
         stage = Stage()
         stage.name = "MolecularDynamics"
 
-        cfg = self.cfg.molecular_dynamics_stage1_1
-
-        for task_idx in range(cfg.num_tasks):
-            #cfg.task_config.pdb_file = next(filenames)
-            task = generate_task(cfg)
-            stage.add_tasks(task)
-
-        cfg = self.cfg.molecular_dynamics_stage1_2
+        cfg = self.cfg.molecular_dynamics_stage1
 
         for task_idx in range(cfg.num_tasks):
             #cfg.task_config.pdb_file = next(filenames)
@@ -67,14 +60,7 @@ class AsyncPipelineManager:
         stage = Stage()
         stage.name = "MolecularDynamics"
 
-        cfg = self.cfg.molecular_dynamics_stage2_1
-
-        for task_idx in range(cfg.num_tasks):
-            #cfg.task_config.pdb_file = next(filenames)
-            task = generate_task(cfg)
-            stage.add_tasks(task)
-
-        cfg = self.cfg.molecular_dynamics_stage2_2
+        cfg = self.cfg.molecular_dynamics_stage2
 
         for task_idx in range(cfg.num_tasks):
             #cfg.task_config.pdb_file = next(filenames)

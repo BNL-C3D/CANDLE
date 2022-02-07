@@ -94,10 +94,8 @@ class ExperimentConfig(BaseSettings):
     cpus_per_node: int
     gpus_per_node: int
     num_nodes: int
-    molecular_dynamics_stage1_1: MolecularDynamicsStageConfig
-    molecular_dynamics_stage1_2: MolecularDynamicsStageConfig
-    molecular_dynamics_stage2_1: MolecularDynamicsStageConfig
-    molecular_dynamics_stage2_2: MolecularDynamicsStageConfig
+    molecular_dynamics_stage1: MolecularDynamicsStageConfig
+    molecular_dynamics_stage2: MolecularDynamicsStageConfig
     aggregation_stage: AggregationStageConfig
     machine_learning_stage: MachineLearningStageConfig
     agent_stage: AgentStageConfig
