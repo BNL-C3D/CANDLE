@@ -1,0 +1,10 @@
+        Res.  Task           Execution Time Remaining (Orig: simu 50, aggr 10, ML 5)
+[Node]  GPU   simulation     50   50   50   50   50   50
+        (let simulation tasks run for 25 -> half simulation results needed for ML)
+        CPU   aggregation    10   10   10   10   10   10
+        (let aggregation tasks run for 10/2 -> assume half executed task takes half time)
+        GPU   ML training     5    5    5    5    5    5
+        (let ML training tasks run for 5/2 -> assume half executed task takes half time)
+        GPU   simulation     25   25   25   25   25   25 (completing remaining half simulation)
+        CPU   aggregation  10/2 10/2 10/2 10/2 10/2 10/2 (completing remaining half aggregation)
+        GPU   ML training   5/2  5/2  5/2  5/2  5/2  5/2 (completing remaining half ML training)

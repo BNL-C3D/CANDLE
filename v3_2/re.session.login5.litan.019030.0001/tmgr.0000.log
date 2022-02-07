@@ -1,0 +1,462 @@
+1644244098.516 : tmgr.0000            : 4143764 : 140733461819760 : INFO     : connect pub to state_pubsub: tcp://10.134.0.35:38165
+1644244098.522 : tmgr.0000            : 4143764 : 140733461819760 : DEBUG    : registered publisher for state_pubsub
+1644244098.553 : tmgr.0000            : 4143764 : 140733461819760 : INFO     : connect pub to control_pubsub: tcp://10.134.0.35:40249
+1644244098.558 : tmgr.0000            : 4143764 : 140733461819760 : DEBUG    : registered publisher for control_pubsub
+1644244098.589 : tmgr.0000            : 4143764 : 140733461819760 : INFO     : connect sub to control_pubsub: tcp://10.134.0.35:45555
+1644244098.675 : tmgr.0000            : 4143764 : 140733461819760 : DEBUG    : ~~ control_pubsub: control_pubsub
+1644244098.765 : tmgr.0000            : 4143764 : 140733453365616 : INFO     : started tmgr tmgr.0000
+1644244104.803 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : tmgr.0000 register output TMGR_SCHEDULING_PENDING:tmgr_scheduling_queue
+1644244104.953 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : tmgr.0000 register output TMGR_STAGING_OUTPUT_PENDING:tmgr_staging_output_queue
+1644244105.072 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : START: tmgr.0000 register idler tmgr.0000.idler._state_pull_cb
+1644244105.082 : tmgr.0000            : 4143764 : 140734669779312 : DEBUG    : start idle thread: <bound method TaskManager._state_pull_cb of <radical.pilot.task_manager.TaskManager object at 0x7fff9764f950>>
+1644244105.088 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : tmgr.0000 registered idler tmgr.0000.idler._state_pull_cb
+1644244105.093 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : START: tmgr.0000 register idler tmgr.0000.idler._task_pull_cb
+1644244105.198 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : start idle thread: <bound method TaskManager._task_pull_cb of <radical.pilot.task_manager.TaskManager object at 0x7fff9764f950>>
+1644244105.214 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : tmgr.0000 registered idler tmgr.0000.idler._task_pull_cb
+1644244105.265 : tmgr.0000            : 4143764 : 140733453365616 : INFO     : connect sub to state_pubsub: tcp://10.134.0.35:44007
+1644244105.286 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : ~~ state_pubsub: state_pubsub
+1644244105.315 : tmgr.0000            : 4143764 : 140733931581808 : DEBUG    : command incoming: {'cmd': 'add_pilots', 'arg': {'pilots': [{'session': 're.session.login5.litan.019030.0001', 'pmgr': 'pmgr.0000', 'uid': 'pilot.0000', 'type': 'pilot', 'state': 'PMGR_ACTIVE', 'log': None, 'stdout': None, 'stderr': None, 'resource': 'ornl.summit', 'resource_sandbox': 'file://localhost/gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox', 'session_sandbox': 'file://localhost/gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/re.session.login5.litan.019030.0001', 'pilot_sandbox': 'file://localhost/gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/re.session.login5.litan.019030.0001/pilot.0000/', 'client_sandbox': '/gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/new/CANDLE/v3', 'js_url': 'lsf://localhost/', 'js_hop': 'fork://localhost/', 'description': {'uid': None, 'resource': 'ornl.summit', 'access_schema': None, 'runtime': 120, 'app_comm': [], 'sandbox': None, 'cores': 1344, 'gpus': 48, 'memory': 0, 'queue': 'debug', 'job_name': None, 'project': 'CSC299', 'cleanup': False, 'candidate_hosts': [], 'exit_on_error': True, 'input_staging': [], 'output_staging': [], 'prepare_env': {}, 'layout': 'default', 'services': []}}], 'tmgr': 'tmgr.0000'}}
+1644244105.315 : tmgr.0000            : 4143764 : 140733931581808 : DEBUG    : command ignored: add_pilots
+1644244105.519 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.520 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.522 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.522 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.523 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.523 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.524 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.524 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.525 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.525 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.526 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.526 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.527 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.527 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.528 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.528 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.529 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.529 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.530 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.531 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.531 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.532 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.532 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.533 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.533 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.534 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.534 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.535 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.535 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.536 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.536 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.537 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.537 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.538 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.538 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.539 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.540 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.540 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.541 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.541 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.542 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.542 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.543 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.543 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.544 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.544 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.545 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.545 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.546 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.546 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.547 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.547 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.548 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.548 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.549 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.549 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.550 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.552 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.552 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.553 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.553 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.554 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.555 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.555 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.556 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.556 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.557 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.557 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.558 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.558 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.559 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.559 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.560 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.560 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.561 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.561 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.562 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.563 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.563 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.564 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.564 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.565 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.565 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.566 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.566 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.567 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.567 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.568 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.568 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.569 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.569 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.570 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.570 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.571 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.571 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.572 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244105.596 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 96 [True, True]
+1644244105.601 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 96
+1644244124.384 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    10
+1644244124.386 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:   10
+1644244124.386 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 10 [False, True]
+1644244124.387 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 10 [False, True]
+1644244125.392 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    2
+1644244125.393 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    2
+1644244125.394 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 2 [False, True]
+1644244125.394 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 2 [False, True]
+1644244136.474 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    10
+1644244136.475 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:   10
+1644244136.476 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 10 [False, True]
+1644244136.477 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 10 [False, True]
+1644244136.885 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244136.886 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244136.887 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244136.890 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 3 [True, True]
+1644244136.891 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 3
+1644244137.483 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    5
+1644244137.484 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    5
+1644244137.485 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 5 [False, True]
+1644244137.485 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 5 [False, True]
+1644244140.012 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244140.016 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [True, True]
+1644244140.016 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 1
+1644244146.542 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244146.543 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244146.543 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244146.544 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244147.548 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244147.550 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244147.550 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244147.550 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244148.567 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    16
+1644244148.569 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:   16
+1644244148.570 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 16 [False, True]
+1644244148.571 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 16 [False, True]
+1644244149.341 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244149.341 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244149.342 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244149.343 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244149.344 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244149.344 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244149.348 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 6 [True, True]
+1644244149.348 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 6
+1644244149.576 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244149.577 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244149.578 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244149.578 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244150.582 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244150.584 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244150.584 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244150.584 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244152.666 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244152.667 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244152.668 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244152.668 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244152.669 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244152.670 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244152.676 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 6 [True, True]
+1644244152.677 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 6
+1644244157.845 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244157.846 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244157.846 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244157.847 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244159.020 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244159.021 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244159.022 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244159.022 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244159.023 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244159.024 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244159.027 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 6 [True, True]
+1644244159.028 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 6
+1644244161.883 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    16
+1644244161.885 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:   16
+1644244161.886 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 16 [False, True]
+1644244161.887 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 16 [False, True]
+1644244162.158 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244162.158 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244162.160 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244162.161 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244162.164 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 4 [True, True]
+1644244162.164 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 4
+1644244162.892 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244162.893 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244162.893 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244162.894 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244163.904 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    10
+1644244163.905 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:   10
+1644244163.906 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 10 [False, True]
+1644244163.906 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 10 [False, True]
+1644244164.912 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    3
+1644244164.914 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    3
+1644244164.914 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 3 [False, True]
+1644244164.914 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 3 [False, True]
+1644244165.476 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244165.477 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244165.478 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244165.479 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244165.480 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244165.481 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244165.485 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 6 [True, True]
+1644244165.485 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 6
+1644244167.932 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    5
+1644244167.933 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    5
+1644244167.934 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 5 [False, True]
+1644244167.934 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 5 [False, True]
+1644244169.948 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    2
+1644244169.949 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    2
+1644244169.950 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 2 [False, True]
+1644244169.950 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 2 [False, True]
+1644244170.957 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    7
+1644244170.958 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    7
+1644244170.959 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 7 [False, True]
+1644244170.959 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 7 [False, True]
+1644244171.750 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244171.750 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244171.751 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244171.752 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244171.753 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244171.753 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244171.754 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244171.758 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 7 [True, True]
+1644244171.758 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 7
+1644244173.981 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    6
+1644244173.983 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    6
+1644244173.983 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 6 [False, True]
+1644244173.984 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 6 [False, True]
+1644244175.992 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244175.993 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244175.994 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244175.994 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244178.050 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244178.051 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244178.052 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244178.053 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244178.054 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244178.055 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244178.058 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 6 [True, True]
+1644244178.059 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 6
+1644244182.029 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244182.030 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244182.030 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244182.030 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244183.038 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    8
+1644244183.040 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    8
+1644244183.040 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 8 [False, True]
+1644244183.041 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 8 [False, True]
+1644244184.045 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244184.046 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244184.047 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244184.047 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244184.263 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244184.264 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244184.264 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244184.265 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244184.266 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244184.266 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244184.267 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244184.268 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244184.268 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244184.273 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 9 [True, True]
+1644244184.273 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 9
+1644244185.057 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    17
+1644244185.058 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:   17
+1644244185.060 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 17 [False, True]
+1644244185.061 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 17 [False, True]
+1644244187.534 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244187.535 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244187.538 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 2 [True, True]
+1644244187.539 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 2
+1644244188.079 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    5
+1644244188.080 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    5
+1644244188.081 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 5 [False, True]
+1644244188.081 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 5 [False, True]
+1644244189.086 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    6
+1644244189.087 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    6
+1644244189.088 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 6 [False, True]
+1644244189.088 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 6 [False, True]
+1644244190.787 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244190.788 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244190.788 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244190.789 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244190.789 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244190.790 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244190.791 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244190.791 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244190.792 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244190.792 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244190.793 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244190.794 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244190.794 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244190.799 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 13 [True, True]
+1644244190.800 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 13
+1644244192.111 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244192.112 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244192.112 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244192.112 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244194.047 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244194.047 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244194.048 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244194.049 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244194.050 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244194.051 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244194.054 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 6 [True, True]
+1644244194.055 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 6
+1644244195.127 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    3
+1644244195.129 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    3
+1644244195.129 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 3 [False, True]
+1644244195.130 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 3 [False, True]
+1644244199.152 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244199.154 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244199.154 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244199.154 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244200.158 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244200.160 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244200.160 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244200.160 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244200.263 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244200.264 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244200.264 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244200.265 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244200.266 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244200.267 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244200.270 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 6 [True, True]
+1644244200.271 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 6
+1644244201.165 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244201.166 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244201.167 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244201.167 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244205.192 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    4
+1644244205.193 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    4
+1644244205.194 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 4 [False, True]
+1644244205.194 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 4 [False, True]
+1644244206.538 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244206.539 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244206.540 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244206.541 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244206.542 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244206.543 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244206.546 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 6 [True, True]
+1644244206.546 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 6
+1644244208.211 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    6
+1644244208.212 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    6
+1644244208.213 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 6 [False, True]
+1644244208.213 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 6 [False, True]
+1644244209.761 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244209.762 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244209.763 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244209.766 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 3 [True, True]
+1644244209.766 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 3
+1644244210.228 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244210.229 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244210.230 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244210.230 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244211.243 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    23
+1644244211.245 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:   23
+1644244211.246 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 23 [False, True]
+1644244211.247 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 23 [False, True]
+1644244212.254 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    5
+1644244212.255 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    5
+1644244212.256 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 5 [False, True]
+1644244212.256 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 5 [False, True]
+1644244212.936 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244212.937 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244212.940 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 2 [True, True]
+1644244212.941 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 2
+1644244219.278 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244219.280 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244219.280 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244219.280 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244222.190 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244222.191 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244222.192 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244222.192 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244222.193 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244222.194 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244222.198 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 6 [True, True]
+1644244222.198 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 6
+1644244224.298 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244224.299 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244224.299 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244224.299 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244225.454 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244225.455 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244225.456 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244225.457 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244225.458 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244225.458 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244225.462 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 6 [True, True]
+1644244225.462 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 6
+1644244229.328 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244229.329 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244229.330 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244229.330 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244231.681 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244231.681 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244231.682 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244231.683 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244231.684 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244231.685 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244231.688 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 6 [True, True]
+1644244231.688 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 6
+1644244236.366 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244236.367 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244236.367 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244236.368 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244239.381 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244239.382 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244239.383 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244239.383 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244242.395 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    2
+1644244242.397 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    2
+1644244242.397 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 2 [False, True]
+1644244242.397 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 2 [False, True]
+1644244243.813 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244243.814 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244243.815 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244243.815 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244243.816 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244243.817 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244243.821 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 6 [True, True]
+1644244243.821 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 6
+1644244245.411 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244245.412 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244245.412 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244245.413 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244248.429 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244248.431 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    1
+1644244248.431 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244248.431 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 1 [False, True]
+1644244251.453 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    20
+1644244251.455 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:   20
+1644244251.457 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 20 [False, True]
+1644244251.458 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 20 [False, True]
+1644244253.018 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244253.019 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244253.020 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244253.021 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 1 [False, False]
+1644244253.024 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : advance bulk: 4 [True, True]
+1644244253.024 : tmgr.0000            : 4143764 : 140733453365616 : DEBUG    : put bulk TMGR_SCHEDULING_PENDING: 4
+1644244261.493 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    4
+1644244261.494 : tmgr.0000            : 4143764 : 140734912852336 : INFO     : tasks pulled:    4
+1644244261.495 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 4 [False, True]
+1644244261.495 : tmgr.0000            : 4143764 : 140734912852336 : DEBUG    : advance bulk: 4 [False, True]
+1644244263.027 : tmgr.0000            : 4143764 : 140733453365616 : INFO     : Closed TaskManager tmgr.0000.

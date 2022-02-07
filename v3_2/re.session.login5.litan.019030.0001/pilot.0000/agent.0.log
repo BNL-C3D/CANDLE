@@ -1,0 +1,478 @@
+1644244097.344 : agent.0              : 678681 : 35184372370176 : INFO     : connect sub to control_pubsub: tcp://10.134.0.45:38925
+1644244097.345 : agent.0              : 678681 : 35184372370176 : DEBUG    : ~~ control_pubsub: control_pubsub
+1644244097.345 : agent.0              : 678681 : 35184372370176 : DEBUG    : start heartbeat
+1644244097.345 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244097.345 : agent.0              : 678681 : 35184372370176 : INFO     : hb init for pmgr.0000
+1644244097.345 : agent.0              : 678681 : 35185027182960 : INFO     : connect pub to state_pubsub: tcp://10.134.0.45:33981
+1644244097.346 : agent.0              : 678681 : 35185027182960 : DEBUG    : registered publisher for state_pubsub
+1644244097.346 : agent.0              : 678681 : 35185027182960 : INFO     : connect pub to control_pubsub: tcp://10.134.0.45:44199
+1644244097.346 : agent.0              : 678681 : 35185027182960 : DEBUG    : registered publisher for control_pubsub
+1644244097.346 : agent.0              : 678681 : 35185027182960 : DEBUG    : ~~ control_pubsub: control_pubsub
+1644244097.346 : agent.0              : 678681 : 35185027182960 : DEBUG    : agent.0 register output AGENT_STAGING_INPUT_PENDING:agent_staging_input_queue
+1644244097.348 : agent.0              : 678681 : 35185027182960 : DEBUG    : START: agent.0 register idler agent.0.idler._agent_command_cb
+1644244097.348 : agent.0              : 678681 : 35185731301744 : DEBUG    : start idle thread: <bound method Agent_0._agent_command_cb of <radical.pilot.agent.agent_0.Agent_0 object at 0x200012835b10>>
+1644244097.348 : agent.0              : 678681 : 35185027182960 : DEBUG    : agent.0 registered idler agent.0.idler._agent_command_cb
+1644244097.348 : agent.0              : 678681 : 35185027182960 : DEBUG    : START: agent.0 register idler agent.0.idler._check_tasks_cb
+1644244097.350 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.350 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.350 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.350 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.350 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.350 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.350 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.350 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.350 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.351 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.351 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.351 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.351 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.351 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.351 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.351 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.351 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.353 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.353 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.353 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.353 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.353 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.353 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.353 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.353 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.353 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.353 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.353 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.353 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.353 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.354 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.354 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.354 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.354 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.354 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.354 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.354 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.354 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.354 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.354 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.356 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.356 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.356 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.356 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.356 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.356 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.356 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.356 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.356 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.356 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.356 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.356 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.357 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.357 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.357 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.357 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.357 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.357 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.357 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.357 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.357 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.357 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.357 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.357 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.357 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.358 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.358 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.358 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.358 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.358 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.358 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.358 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.358 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.358 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.358 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.358 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.358 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.358 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.358 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.359 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.359 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.359 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.359 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.359 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.359 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.359 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.359 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.359 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244097.360 : agent.0              : 678681 : 35185735561584 : DEBUG    : start idle thread: <bound method Agent_0._check_tasks_cb of <radical.pilot.agent.agent_0.Agent_0 object at 0x200012835b10>>
+1644244097.360 : agent.0              : 678681 : 35185027182960 : DEBUG    : agent.0 registered idler agent.0.idler._check_tasks_cb
+1644244097.361 : agent.0              : 678681 : 35185027182960 : DEBUG    : advance bulk: 1 [False, True]
+1644244097.361 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244099.364 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244099.364 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244099.366 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244100.682 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244101.369 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244101.369 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244101.370 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244103.374 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244103.375 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244104.019 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244105.378 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244105.379 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244105.380 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244107.353 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244107.383 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244107.384 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244107.385 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244109.388 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244109.389 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244109.399 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:   96
+1644244109.401 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 96 [True, False]
+1644244109.403 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 96
+1644244110.690 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244111.393 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244111.393 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244111.409 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244113.398 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244113.398 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244113.413 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244114.026 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244115.402 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244115.402 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244115.416 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244117.363 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244117.407 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244117.419 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244119.411 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244119.411 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244119.423 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244120.699 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244121.416 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244121.416 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244121.426 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244123.421 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244123.421 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244123.430 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244124.036 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244125.425 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244125.425 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244125.433 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244127.373 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244127.430 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244127.430 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244127.436 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244129.434 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244129.434 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244129.440 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244130.710 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244131.438 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244131.439 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244131.443 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244133.443 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244133.446 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244134.046 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244135.448 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244135.448 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244135.450 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244137.383 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244137.452 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244137.452 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244137.454 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244139.457 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244139.457 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244139.460 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    3
+1644244139.460 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 3 [True, False]
+1644244139.460 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 3
+1644244140.720 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244141.461 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244141.461 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244141.466 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    1
+1644244141.466 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 1 [True, False]
+1644244141.466 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 1
+1644244143.466 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244143.466 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244143.469 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244144.057 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244145.470 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244145.473 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244147.394 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244147.475 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244147.475 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244147.476 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244149.479 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244149.479 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244149.481 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244150.730 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244151.484 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244151.484 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244151.488 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    6
+1644244151.489 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 6 [True, False]
+1644244151.489 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 6
+1644244153.488 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244153.488 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244153.494 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    6
+1644244153.495 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 6 [True, False]
+1644244153.495 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 6
+1644244154.067 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244155.493 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244155.493 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244155.499 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244157.404 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244157.497 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244157.502 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244159.501 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244159.502 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244159.506 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244160.741 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244161.506 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244161.507 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244161.512 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    6
+1644244161.512 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 6 [True, False]
+1644244161.512 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 6
+1644244163.511 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244163.511 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244163.518 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    4
+1644244163.518 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 4 [True, False]
+1644244163.518 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 4
+1644244164.078 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244165.516 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244165.516 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244165.522 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244167.414 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244167.520 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244167.520 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244167.527 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    6
+1644244167.528 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 6 [True, False]
+1644244167.528 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 6
+1644244169.524 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244169.524 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244169.532 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244170.751 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244171.529 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244171.535 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244173.533 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244173.534 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244173.541 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    7
+1644244173.541 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 7 [True, False]
+1644244173.542 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 7
+1644244174.088 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244175.538 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244175.538 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244175.545 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244177.425 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244177.542 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244177.543 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244177.549 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244179.547 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244179.547 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244179.554 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    6
+1644244179.555 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 6 [True, False]
+1644244179.555 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 6
+1644244180.762 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244181.552 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244181.552 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244181.559 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244183.556 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244183.556 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244183.562 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244184.098 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244185.561 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244185.568 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    9
+1644244185.569 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 9 [True, False]
+1644244185.569 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 9
+1644244187.433 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244187.565 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244187.565 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244187.572 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244189.570 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244189.570 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244189.578 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    2
+1644244189.578 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 2 [True, False]
+1644244189.578 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 2
+1644244190.769 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244191.574 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244191.574 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244191.585 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:   13
+1644244191.586 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 13 [True, False]
+1644244191.586 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 13
+1644244193.579 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244193.579 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244193.590 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244194.106 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244195.584 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244195.584 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244195.596 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    6
+1644244195.596 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 6 [True, False]
+1644244195.596 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 6
+1644244197.443 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244197.588 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244197.588 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244197.600 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244199.593 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244199.604 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244200.780 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244201.598 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244201.598 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244201.610 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    6
+1644244201.610 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 6 [True, False]
+1644244201.610 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 6
+1644244203.602 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244203.603 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244203.614 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244204.117 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244205.607 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244205.607 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244205.618 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244207.453 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244207.612 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244207.612 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244207.624 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    6
+1644244207.624 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 6 [True, False]
+1644244207.624 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 6
+1644244209.616 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244209.617 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244209.628 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244210.790 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244211.621 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244211.621 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244211.634 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    3
+1644244211.634 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 3 [True, False]
+1644244211.634 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 3
+1644244213.626 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244213.640 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    2
+1644244213.640 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 2 [True, False]
+1644244213.640 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 2
+1644244214.127 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244215.630 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244215.631 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244215.644 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244217.463 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244217.635 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244217.635 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244217.647 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244219.640 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244219.640 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244219.651 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244220.799 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244221.644 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244221.644 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244221.655 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244223.649 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244223.649 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244223.661 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    6
+1644244223.662 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 6 [True, False]
+1644244223.662 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 6
+1644244224.136 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244225.653 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244225.668 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    6
+1644244225.668 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 6 [True, False]
+1644244225.668 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 6
+1644244227.473 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244227.658 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244227.659 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244227.673 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244229.663 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244229.663 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244229.677 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244230.810 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244231.668 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244231.668 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244231.681 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244233.672 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244233.673 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244233.687 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    6
+1644244233.687 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 6 [True, False]
+1644244233.687 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 6
+1644244234.146 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244235.677 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244235.678 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244235.691 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244237.483 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244237.682 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244237.682 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244237.695 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244239.686 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244239.699 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244240.819 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244241.691 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244241.691 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244241.703 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244243.696 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244243.696 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244243.706 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244244.156 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244245.700 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244245.700 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244245.713 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    6
+1644244245.713 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 6 [True, False]
+1644244245.713 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 6
+1644244247.493 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244247.705 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244247.705 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244247.717 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244249.710 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244249.721 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244250.829 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244251.714 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244251.715 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244251.725 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244253.719 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244253.719 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244253.731 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    4
+1644244253.731 : agent.0              : 678681 : 35185735561584 : DEBUG    : advance bulk: 4 [True, False]
+1644244253.731 : agent.0              : 678681 : 35185735561584 : DEBUG    : put bulk AGENT_STAGING_INPUT_PENDING: 4
+1644244254.166 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244255.724 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244255.724 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244255.735 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244257.503 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244257.729 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244257.729 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244257.739 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244259.733 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244259.734 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244259.743 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244260.839 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244261.738 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244261.738 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244261.747 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244263.742 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244263.743 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244263.751 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244264.176 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244265.747 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244265.747 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244265.754 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244267.513 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244267.751 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244267.752 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244267.758 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244269.756 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244269.756 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244269.762 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244270.849 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244271.761 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244271.761 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244271.766 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244273.765 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244273.765 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244273.770 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244274.186 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244275.770 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244275.770 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244275.773 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244277.523 : agent.0              : 678681 : 35185022923120 : DEBUG    : hb check
+1644244277.774 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244277.774 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: heartbeat: {'pmgr': 'pmgr.0000'}
+1644244277.777 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244279.779 : agent.0              : 678681 : 35185731301744 : DEBUG    : pilot command: cancel_pilot: []
+1644244279.779 : agent.0              : 678681 : 35185731301744 : INFO     : cancel pilot cmd
+1644244280.264 : agent.0              : 678681 : 35185731301744 : INFO     : stop agent.0 (678681 : Thread-7) [radical.pilot.agent.agent_0.Agent_0._check_commands]
+1644244280.264 : agent.0              : 678681 : 35185018663280 : DEBUG    : command incoming: {'cmd': 'terminate', 'arg': None}
+1644244280.264 : agent.0              : 678681 : 35185018663280 : INFO     : got termination command
+1644244280.266 : agent.0              : 678681 : 35185018663280 : INFO     : stop agent.0 (678681 : Thread-4) [radical.pilot.utils.component.Agent_0._cancel_monitor_cb]
+1644244280.268 : agent.0              : 678681 : 35185735561584 : INFO     : tasks pulled:    0
+1644244280.271 : agent.0              : 678681 : 35185027182960 : DEBUG    : _finalize()
+1644244280.271 : agent.0              : 678681 : 35185027182960 : DEBUG    : stage output parent
+1644244280.272 : agent.0              : 678681 : 35185027182960 : DEBUG    : update db state: CANCELED: cancel
+1644244280.277 : agent.0              : 678681 : 35185027182960 : INFO     : rusage: real 1644244280.276714 sec | user 4.117 sec | system 3.018 sec | mem 96192.00 kB
+1644244280.279 : agent.0              : 678681 : 35185027182960 : DEBUG    : update ret: {'n': 1, 'nModified': 1, 'ok': 1.0, 'updatedExisting': True}
+1644244280.279 : agent.0              : 678681 : 35185027182960 : DEBUG    : agent.0 close prof

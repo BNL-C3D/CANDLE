@@ -1,0 +1,18 @@
+{
+    "base": "/gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/new/CANDLE/v3",
+    "cmgr": "cmgr.0001",
+    "count": 1,
+    "db_poll_sleeptime": 1.0,
+    "dburl": "mongodb://rct:rct_test@apps.marble.ccs.ornl.gov:32020/rct_test",
+    "heartbeat": {
+        "addr_pub": "tcp://10.134.0.34:44547",
+        "addr_sub": "tcp://10.134.0.34:34679",
+        "interval": 1.0,
+        "timeout": 60.0
+    },
+    "kind": "pmgr_launching",
+    "owner": "pmgr.0000",
+    "path": "/gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/new/CANDLE/v3/re.session.login4.litan.018996.0001",
+    "sid": "re.session.login4.litan.018996.0001",
+    "uid": "pmgr_launching.0000"
+}

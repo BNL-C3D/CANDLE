@@ -1,0 +1,3 @@
+#time,event,comp,thread,uid,state,msg
+1641265083.7369821,sync_abs,cmgr.0002,Thread-13,,,login4.summit.olcf.ornl.gov:10.134.0.34:1641265083.7112496:1641265083.7806487:ntp
+1641265083.7678378,init2,cmgr.0002,Thread-13,cmgr.0002,,/gpfs/alpine/csc299/scratch/litan/DeepDriveMD/async/new/new/CANDLE/v3/re.session.login4.litan.018996.0002

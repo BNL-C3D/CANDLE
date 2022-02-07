@@ -1,0 +1,299 @@
+# -------------------------------------------------------------------
+bootstrap_0 running on host: batch4.summit.olcf.ornl.gov.
+bootstrap_0 started as     : './bootstrap_0.sh -d radical.utils-1.9.0.tar.gz:radical.saga-1.8.0.tar.gz:radical.pilot-1.10.0.tar.gz -p pilot.0000 -s re.session.login4.litan.018996.0001 -m create -r local -b default -g default -v /gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/ve.ornl.summit.1.10.0 -y 120 -z re.session.login4.litan.018996.0001.pmgr_launching.0000.tgz -e module unload xl -e module unload xalt -e module unload spectrum-mpi -e module load   gcc/9.1.0 -e module load   libzmq/4.3.3 -e module load   python/3.7-anaconda3 -e module list -w module unload xl -w module unload xalt -w module unload spectrum-mpi -w module load   gcc/9.1.0 -w module load   libzmq/4.3.3 -w module load   python/3.7-anaconda3 -w ulimit -u 65536'
+safe environment of bootstrap_0
+bootstrap_0 stderr redirected to stdout
+
+# -------------------------------------------------------------------
+#
+# Running pre_bootstrap_0 command
+# cmd: module unload xl
+#
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) spectrum-mpi/10.4.0.3-20210112
+
+#
+# SUCCESS
+#
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+#
+# Running pre_bootstrap_0 command
+# cmd: module unload xalt
+#
+#
+# SUCCESS
+#
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+#
+# Running pre_bootstrap_0 command
+# cmd: module unload spectrum-mpi
+#
+#
+# SUCCESS
+#
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+#
+# Running pre_bootstrap_0 command
+# cmd: module load   gcc/9.1.0
+#
+#
+# SUCCESS
+#
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+#
+# Running pre_bootstrap_0 command
+# cmd: module load   libzmq/4.3.3
+#
+#
+# SUCCESS
+#
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+#
+# Running pre_bootstrap_0 command
+# cmd: module load   python/3.7-anaconda3
+#
+#
+# SUCCESS
+#
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+#
+# Running pre_bootstrap_0 command
+# cmd: module list
+#
+
+Currently Loaded Modules:
+  1) lsf-tools/2.0                4) DefApps        7) python/3.7-anaconda3
+  2) hsi/5.0.2.p5                 5) gcc/9.1.0
+  3) darshan-runtime/3.3.0-lite   6) libzmq/4.3.3
+
+ 
+
+#
+# SUCCESS
+#
+# -------------------------------------------------------------------
+# -------------------------------------------------------------------
+# untar sandbox
+# -------------------------------------------------------------------
+pilot.0000/
+pilot.0000/pilot.0000.prof.tgz
+pilot.0000/pilot.0000.log.tgz
+radical.pilot-1.10.0.tar.gz
+radical.saga-1.8.0.tar.gz
+radical.utils-1.9.0.tar.gz
+# -------------------------------------------------------------------
+# -------------------------------------------------------------------
+# Touching output tarballs
+# -------------------------------------------------------------------
+create gtod
+1641259460.0000,sync_abs,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,batch4:10.134.0.44:1641259460:1641259460:1641259460
+1641259460.0000,bootstrap_0_start,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+VIRTENV           : /gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/ve.ornl.summit.1.10.0
+VIRTENV normalized: /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0
+PYTHON            : /sw/summit/python/3.7/anaconda3/2020.07-rhel8/bin/python
+PYTHON_VERSION    : 3.7
+PIP               : /sw/summit/python/3.7/anaconda3/2020.07-rhel8/bin/python -m pip
+PIP version       : pip 20.1.1 from /sw/summit/python/3.7/anaconda3/2020.07-rhel8/lib/python3.7/site-packages/pip (python 3.7)
+1641259461.0000,ve_setup_start,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+virtenv_create    : TRUE
+virtenv_update    : FALSE
+rp install sources:  radical.utils-1.9.0/ radical.saga-1.8.0/ radical.pilot-1.10.0/
+rp install target : SANDBOX
+rp install lock   : FALSE
+virtenv /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0 exists
+1641259461.0000,ve_activate_start,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+VIRTENV activated : /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0
+RP_PATH           : /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0/bin
+PYTHON            : /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0/bin/python
+PYTHON_VERSION    : 3.7
+PIP               : /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0/bin/python -m pip
+PIP version       : pip 21.3.1 from /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0/lib/python3.7/site-packages/pip (python 3.7)
+VE_MOD_PREFIX init: /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0/lib/python3.7/site-packages
+VE_MOD_PREFIX     : /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0/lib/python3.7/site-packages
+RP_MOD_PREFIX     : /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0/rp_install/lib/python3.7/site-packages
+VE_PYTHONPATH     : /ccs/home/litan/DrugWorkflows/workflow-3/amber18/lib/python2.7/site-packages
+1641259463.0000,ve_activate_stop,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+do not update virtenv /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0
+1641259463.0000,rp_install_start,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+Using RADICAL-Pilot install sources ' radical.utils-1.9.0/ radical.saga-1.8.0/ radical.pilot-1.10.0/'
+VE_MOD_PREFIX     : /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0/lib/python3.7/site-packages
+VIRTENV           : /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0
+SANDBOX           : /gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/re.session.login4.litan.018996.0001/pilot.0000
+VE_LOC_PREFIX     : 
+using local install tree
+PYTHONPATH        : /gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/re.session.login4.litan.018996.0001/pilot.0000/rp_install/lib/python3.7/site-packages::/ccs/home/litan/DrugWorkflows/workflow-3/amber18/lib/python2.7/site-packages
+RP_LOC_PREFIX     : /gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/re.session.login4.litan.018996.0001/pilot.0000/rp_install/lib/python3.7/site-packages
+RADICAL_MOD_PREFIX: /gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/re.session.login4.litan.018996.0001/pilot.0000/rp_install/lib/python3.7/site-packages/radical/
+
+# -------------------------------------------------------------------
+#
+# update radical.utils-1.9.0/ via pip
+# cmd: /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0/bin/python -m pip install  --src '/gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/re.session.login4.litan.018996.0001/pilot.0000/rp_install/src' --prefix '/gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/re.session.login4.litan.018996.0001/pilot.0000/rp_install' --no-deps --no-cache-dir --no-build-isolation radical.utils-1.9.0/
+#
+Processing ./radical.utils-1.9.0
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: radical.utils
+  Building wheel for radical.utils (setup.py): started
+  Building wheel for radical.utils (setup.py): finished with status 'done'
+  Created wheel for radical.utils: filename=radical.utils-1.9.0-py3-none-any.whl size=359169 sha256=211e16908ba6e6cc7c51d7b733fe33d8e529b2bf3e5f663a2027d8a0581213cb
+  Stored in directory: /tmp/pip-ephem-wheel-cache-7jkok3ce/wheels/dd/78/76/3ef6ea64128f43dfffa71105305ce5042eaf8e31273174f444
+Successfully built radical.utils
+Installing collected packages: radical.utils
+Successfully installed radical.utils
+#
+# SUCCESS
+#
+# -------------------------------------------------------------------
+purge install source at radical.utils-1.9.0/
+
+# -------------------------------------------------------------------
+#
+# update radical.saga-1.8.0/ via pip
+# cmd: /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0/bin/python -m pip install  --src '/gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/re.session.login4.litan.018996.0001/pilot.0000/rp_install/src' --prefix '/gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/re.session.login4.litan.018996.0001/pilot.0000/rp_install' --no-deps --no-cache-dir --no-build-isolation radical.saga-1.8.0/
+#
+Processing ./radical.saga-1.8.0
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: radical.saga
+  Building wheel for radical.saga (setup.py): started
+  Building wheel for radical.saga (setup.py): finished with status 'done'
+  Created wheel for radical.saga: filename=radical.saga-1.8.0-py3-none-any.whl size=730570 sha256=c6377c73f6e3805e294c75e19558e909c59e2a07e835f73ae0be043e7bd1001b
+  Stored in directory: /tmp/pip-ephem-wheel-cache-mfd5pt_f/wheels/42/99/04/0d0f900c0f2d6f4af2fe2c5bbe26e59dfc78de433103d4b1c8
+Successfully built radical.saga
+Installing collected packages: radical.saga
+Successfully installed radical.saga-1.8.0
+#
+# SUCCESS
+#
+# -------------------------------------------------------------------
+purge install source at radical.saga-1.8.0/
+
+# -------------------------------------------------------------------
+#
+# update radical.pilot-1.10.0/ via pip
+# cmd: /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0/bin/python -m pip install  --src '/gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/re.session.login4.litan.018996.0001/pilot.0000/rp_install/src' --prefix '/gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/re.session.login4.litan.018996.0001/pilot.0000/rp_install' --no-deps --no-cache-dir --no-build-isolation radical.pilot-1.10.0/
+#
+Processing ./radical.pilot-1.10.0
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: radical.pilot
+  Building wheel for radical.pilot (setup.py): started
+  Building wheel for radical.pilot (setup.py): finished with status 'done'
+  Created wheel for radical.pilot: filename=radical.pilot-1.10.0-py3-none-any.whl size=1151216 sha256=9512247463c6e2f43b2b6f5873205a03ee48e3bdf6b3ea4b7125c1483caa4421
+  Stored in directory: /tmp/pip-ephem-wheel-cache-2syd1dga/wheels/42/3c/b3/30e2828c18b768ecfc4c7df63aab7ebfdf1b68f84685f669d6
+Successfully built radical.pilot
+Installing collected packages: radical.pilot
+Successfully installed radical.pilot-1.10.0
+#
+# SUCCESS
+#
+# -------------------------------------------------------------------
+purge install source at radical.pilot-1.10.0/
+1641259475.0000,rp_install_stop,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+1641259475.0000,ve_setup_stop,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+verify python viability: /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0/bin/python ... ok
+verify module viability: radical.pilot   ... ok
+verify module viability: radical.saga    ... ok
+verify module viability: radical.utils   ... ok
+verify module viability: pymongo         ... ok
+verify module viability: colorama        ... ok
+verify module viability: ntplib          ... ok
+verify module viability: zmq             ... ok
+verify module viability: netifaces       ... ok
+verify module viability: setproctitle    ... ok
+verify module viability: msgpack         ... ok
+verify module viability: regex           ... ok
+
+---------------------------------------------------------------------
+
+Python 3.7.7 (/gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0/bin/python)
+PYTHONPATH: /gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/re.session.login4.litan.018996.0001/pilot.0000/rp_install/lib/python3.7/site-packages::/ccs/home/litan/DrugWorkflows/workflow-3/amber18/lib/python2.7/site-packages
+
+  python               : /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0/bin/python3
+  pythonpath           : /gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/re.session.login4.litan.018996.0001/pilot.0000/rp_install/lib/python3.7/site-packages::/ccs/home/litan/DrugWorkflows/workflow-3/amber18/lib/python2.7/site-packages
+  version              : 3.7.7
+  virtualenv           : /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0
+
+  radical.pilot        : 1.10.0
+  radical.saga         : 1.8.0
+  radical.utils        : 1.9.0
+
+RU: 1.9.0 /gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/re.session.login4.litan.018996.0001/pilot.0000/rp_install/lib/python3.7/site-packages/radical/utils/__init__.py
+RS: 1.8.0 /gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/re.session.login4.litan.018996.0001/pilot.0000/rp_install/lib/python3.7/site-packages/radical/saga/__init__.py
+RP: 1.10.0 /gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/re.session.login4.litan.018996.0001/pilot.0000/rp_install/lib/python3.7/site-packages/radical/pilot/__init__.py
+install ok!
+
+---------------------------------------------------------------------
+
+
+# -------------------------------------------------------------------
+# Launching radical-pilot-agent 
+# CMDLINE: /gpfs/alpine/csc299/scratch/litan/radical.pilot.sandbox/ve.ornl.summit.1.10.0/bin/python /gpfs/alpine/scratch/litan/csc299/radical.pilot.sandbox/re.session.login4.litan.018996.0001/pilot.0000/rp_install/bin/radical-pilot-agent
+ntphost: 46.101.140.169
+ping: socket: Operation not permitted
+1641259479.8448,bootstrap_0_ok,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+...........................................................................1641259705.0430,killme,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,2022-01-03 20:28:25.040
+1641259705.0521,sigterm,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,2022-01-03 20:28:25.049
+send SIGTERM to 2524164 (2522874)
+COND start 'kill -0  2524164' (I: 1 T: 30)
+./bootstrap_0.sh: line 310: 2524164 Terminated              ./bootstrap_2.sh 'agent.0' > agent.0.bootstrap_2.out 2> agent.0.bootstrap_2.err
+./bootstrap_0.sh: line 323: kill: (2524164) - No such process
+COND failed (1)
+agent 2524164 is final
+agent 2524164 is final (143)
+1641259706.0690,agent_final,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,2524164:143 2022-01-03 20:28:26.066
+
+# -------------------------------------------------------------------
+# CLEANUP: 
+#
+1641259706.0734,cleanup_start,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+1641259706.0778,cleanup_stop,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+#
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+#
+# Mark final profiling entry ...
+1641259706.0882,bootstrap_0_stop,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+1641259706.0924,END,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+#
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+#
+# We wait for some seconds for the FS to flush profiles.
+# Success is assumed when all profiles end with a 'END' event.
+#
+# -------------------------------------------------------------------
+delay profile sync @ 1: 29 != 7
+delay profile sync @ 2: 29 != 7
+delay profile sync @ 3: 29 != 7
+delay profile sync @ 4: 29 != 7
+abort profile sync @ 5: 29 != 7
+nprofs 29 =? nend 7
+Mon Jan  3 20:28:30 EST 2022
+
+# -------------------------------------------------------------------
+#
+# Tarring profiles ...
+-rw-rw-r-- 1 litan litan 83964 Jan  3 20:28 pilot.0000.prof.tgz
+#
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+#
+# Tarring logfiles ...
