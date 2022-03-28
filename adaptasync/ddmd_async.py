@@ -1,6 +1,6 @@
+import numpy as np
 from typing import List
 from radical.entk import Pipeline, Stage, Task
-#from main import BaseStageConfig
 
 
 def generate_task(cfg, name, ttx) -> Task:
@@ -15,7 +15,6 @@ def generate_task(cfg, name, ttx) -> Task:
 
 
 def generate_ttx(nsamples, mu=20, stddev=10):
-    import numpy as np
     normal = np.random.normal(mu, stddev, nsamples)
     return normal
 
@@ -33,7 +32,7 @@ class AsyncPipelineManager:
         stage.name = "MLAna"
 
         # Generate normally-distributed pseudo-randoms
-        normal_rands = generate_ttx(cfg.num_tasks, 20, 0.25)
+        normal_rands = generate_ttx(cfg.num_tasks, 28.2, 0.5)
 
         for t in range(0, cfg.num_tasks):
             stage.add_tasks(generate_task(cfg, "MLAna", normal_rands[t]))
@@ -46,7 +45,7 @@ class AsyncPipelineManager:
         stage = Stage()
         stage.name = "Agent"
 
-        normal_rands = generate_ttx(cfg.num_tasks, 3, 0.1)
+        normal_rands = generate_ttx(cfg.num_tasks, 11.1, 0.25)
 
         for t in range(0, cfg.num_tasks):
             task = generate_task(cfg, "Agent", normal_rands[t])
@@ -65,7 +64,7 @@ class AsyncPipelineManager:
             stage.name = "Simulation"
 
             # Generate normally-distributed pseudo-randoms
-            normal_rands = generate_ttx(cfg.num_tasks, 10.0, 1.0)
+            normal_rands = generate_ttx(cfg.num_tasks, 59.1, 2.0)
 
             for t in range(0, cfg.num_tasks):
                 task = generate_task(cfg,
@@ -89,7 +88,7 @@ class AsyncPipelineManager:
             stage.name = "Simulation"
 
             # Generate normally-distributed pseudo-randoms
-            normal_rands = generate_ttx(cfg.num_tasks, 10.0, 1.0)
+            normal_rands = generate_ttx(cfg.num_tasks, 59.1, 2.0)
 
             for t in range(0, cfg.num_tasks):
                 task = generate_task(cfg,
@@ -113,3 +112,4 @@ class AsyncPipelineManager:
             self.pipeline.add_stages(ana_stage)
             pipelines.append(self.pipeline)
         return pipelines
+

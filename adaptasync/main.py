@@ -133,7 +133,7 @@ if __name__ == "__main__":
     # Iter-2:
     for _ in range(0, 2):
         mlana_pipe = pipeline_manager.mlana_pipeline()
-        sim_pipe = pipeline_manager.sim_pipeline_part()
+        sim_pipe = pipeline_manager.sim_pipeline_full()
         appman.workflow = set(mlana_pipe + sim_pipe)
         appman.run()
 
