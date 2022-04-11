@@ -1,0 +1,72 @@
+resource: olcf.summit
+queue: batch
+schema_: local
+walltime_min: 120
+cpus_per_node: 42
+gpus_per_node: 6
+project: bip216
+num_nodes: 2
+
+molecular_dynamics_stage:
+    pre_exec: []
+    executable: '/home/ac.vpascuzzi/sw/install/stress-1.0.4/bin/stress'
+    arguments: ['--cpu', '1', '--timeout', '3']
+    cpu_reqs:
+        processes: 1
+        process_type: null
+        threads_per_process: 2
+        thread_type: OpenMP
+    gpu_reqs:
+        processes: 0
+        process_type: null
+        threads_per_process: 0
+        thread_type: null
+    num_tasks: 64
+
+aggregation_stage:
+    pre_exec: []
+    executable: '/home/ac.vpascuzzi/sw/install/stress-1.0.4/bin/stress'
+    arguments: ['--cpu', '1', '--timeout', '3']
+    cpu_reqs:
+        processes: 1
+        process_type: null
+        threads_per_process: 1
+        thread_type: null
+    gpu_reqs:
+        processes: 0
+        process_type: null
+        threads_per_process: 0
+        thread_type: null
+    num_tasks: 32
+
+machine_learning_stage:
+    pre_exec: []
+    executable: '/home/ac.vpascuzzi/sw/install/stress-1.0.4/bin/stress'
+    arguments: ['--cpu', '1', '--timeout', '3']
+    cpu_reqs:
+        processes: 1
+        process_type: null
+        threads_per_process: 2
+        thread_type: OpenMP
+    gpu_reqs:
+        processes: 0
+        process_type: null
+        threads_per_process: 0
+        thread_type: null
+    num_tasks: 32
+
+agent_stage:
+    pre_exec: []
+    executable: '/home/ac.vpascuzzi/sw/install/stress-1.0.4/bin/stress'
+    arguments: ['--cpu', '1', '--timeout', '3']
+    cpu_reqs:
+        processes: 1
+        process_type: null
+        threads_per_process: 1
+        thread_type: null
+    gpu_reqs:
+        processes: 0
+        process_type: null
+        threads_per_process: 0
+        thread_type: null
+    num_tasks: 32
