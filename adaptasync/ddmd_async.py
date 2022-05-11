@@ -2,12 +2,27 @@ import numpy as np
 from typing import List
 from radical.entk import Pipeline, Stage, Task
 
+SUMMIT_CORES = 42
+SUMMIT_GPU = 6
+SF_TX = 1/20
+SF_TX_AGENT = 1/6
+SF_NTASKS = 1/10
+TX_SIM = 1360*SF_TX    # [s]
+TX_PREPROC = 340*SF_TX    # [s]
+TX_ML = 250*SF_TX     # [s]
+TX_AGENT = 150*SF_TX_AGENT  # [s]
+
+NUM_SIM_TASKS = 960*SF_NTASKS  # GPU tasks
+NUM_PREPROC_TASKS = 420*SF_NTASKS  # CPU tasks
+NUM_ML_TASKS = 1 # GPU task
+NUM_AGENT_TASKS_CPU = 6720 * SF_NTASKS # CPU task
+NUM_AGENT_TASKS_GPU = 960 * SF_NTASKS # GPU task
 
 def generate_task(cfg, name, ttx) -> Task:
     task = Task()
-    # task.name = name
+    task.name = name
     task.executable = cfg.executable
-    task.arguments = ['--cpu', '1', '--timeout', '%s' % ttx]
+    task.arguments = ['%s' % ttx]
     task.pre_exec = cfg.pre_exec.copy()
     task.cpu_reqs = cfg.cpu_reqs.dict().copy()
     task.gpu_reqs = cfg.gpu_reqs.dict().copy()
@@ -26,16 +41,54 @@ class AsyncPipelineManager:
         self.cfg = cfg
 
 
+    def generate_sim_pipeline(self) -> List[Pipeline]:
+        pipeline = Pipeline()
+        pipeline.add_stages(self.generate_sim_stage())
+        return pipeline
+
+
+    def generate_sim_stage(self) -> List[Pipeline]:
+        cfg = self.cfg.molecular_dynamics_stage
+        stage = Stage()
+        stage.name = "Simulation"
+
+        # Generate normally-distributed pseudo-randoms for this
+        # pipeline
+        normal_rands = generate_ttx(cfg.num_tasks,
+                                    TX_SIM, 1.0)
+
+        # Number of simulation tasks per pipeline
+        for t in range(0, cfg.num_tasks):
+            task = generate_task(cfg, "Sim", normal_rands[t])
+            stage.add_tasks(task)
+
+        return stage
+
+
+    def generate_preproc_stage(self) -> Stage:
+        cfg = self.cfg.machine_learning_stage
+        stage = Stage()
+        stage.name = "Preprocessing"
+
+        # Generate normally-distributed pseudo-randoms
+        normal_rands = generate_ttx(cfg.num_tasks, TX_PREPROC, 0.5)
+
+        for t in range(0, cfg.num_tasks):
+            stage.add_tasks(generate_task(cfg, "Preproc", normal_rands[t]))
+
+        return stage
+
+
     def generate_mlana_stage(self) -> Stage:
         cfg = self.cfg.machine_learning_stage
         stage = Stage()
-        stage.name = "MLAna"
+        stage.name = "MachineLearning"
 
         # Generate normally-distributed pseudo-randoms
-        normal_rands = generate_ttx(cfg.num_tasks, 28.2, 0.5)
+        normal_rands = generate_ttx(cfg.num_tasks, TX_ML, 0.5)
 
         for t in range(0, cfg.num_tasks):
-            stage.add_tasks(generate_task(cfg, "MLAna", normal_rands[t]))
+            stage.add_tasks(generate_task(cfg, "ML", normal_rands[t]))
 
         return stage
 
@@ -43,9 +96,9 @@ class AsyncPipelineManager:
     def generate_agent_stage(self) -> Stage:
         cfg = self.cfg.agent_stage
         stage = Stage()
-        stage.name = "Agent"
+        stage.name = "AgentAna"
 
-        normal_rands = generate_ttx(cfg.num_tasks, 11.1, 0.25)
+        normal_rands = generate_ttx(cfg.num_tasks, TX_AGENT, 0.1)
 
         for t in range(0, cfg.num_tasks):
             task = generate_task(cfg, "Agent", normal_rands[t])
@@ -54,51 +107,85 @@ class AsyncPipelineManager:
         return stage
 
 
-    def sim_pipeline_full(self) -> List[Pipeline]:
-        cfg = self.cfg.molecular_dynamics_stage
-        pipelines = []
-
-        for p in range(0, self.cfg.num_nodes):
-            self.pipeline = Pipeline()
-            stage = Stage()
-            stage.name = "Simulation"
-
-            # Generate normally-distributed pseudo-randoms
-            normal_rands = generate_ttx(cfg.num_tasks, 59.1, 2.0)
-
-            for t in range(0, cfg.num_tasks):
-                task = generate_task(cfg,
-                    "Sim", normal_rands[t])
-                stage.add_tasks(task)
-
-            self.pipeline.add_stages(stage)
-            pipelines.append(self.pipeline)
-
-        return pipelines
-
-    def sim_pipeline_part(self) -> List[Pipeline]:
-        cfg = self.cfg.molecular_dynamics_stage
-        pipelines = []
-        num_models = 1
+    def generate_async_stage(self) -> List[Pipeline]:
+        """Generate a stage with the required number of each type of task.
+        """
+        s = Stage()
+        s.name = "AsynchStage"
         
-        # Use all nodes except the number used by ML+ana
-        for p in range(0, self.cfg.num_nodes - num_models):
-            self.pipeline = Pipeline()
-            stage = Stage()
-            stage.name = "Simulation"
+        # Simulation tasks
+        cfg = self.cfg.molecular_dynamics_stage
+        normal_rands = generate_ttx(cfg.num_tasks,
+                                    TX_SIM, 1.0)
 
-            # Generate normally-distributed pseudo-randoms
-            normal_rands = generate_ttx(cfg.num_tasks, 59.1, 2.0)
+        # Number of simulation tasks per pipeline
+        for t in range(0, cfg.num_tasks):
+            task = generate_task(cfg, "Sim", normal_rands[t])
+            s.add_tasks(task)
 
-            for t in range(0, cfg.num_tasks):
-                task = generate_task(cfg,
-                    "Sim", normal_rands[t])
-                stage.add_tasks(task)
+        # Preprocessing tasks
+        cfg = self.cfg.machine_learning_stage
+        normal_rands = generate_ttx(cfg.num_tasks, TX_PREPROC, 0.5)
+        for t in range(0, cfg.num_tasks):
+            s.add_tasks(generate_task(cfg, "Preproc", normal_rands[t]))
 
-            self.pipeline.add_stages(stage)
-            pipelines.append(self.pipeline)
+        # ML tasks
+        cfg = self.cfg.machine_learning_stage
+        normal_rands = generate_ttx(cfg.num_tasks, TX_ML, 0.5)
+        for t in range(0, cfg.num_tasks):
+            s.add_tasks(generate_task(cfg, "ML", normal_rands[t]))
+        
+        # Agent tasks
+        cfg = self.cfg.agent_stage
+        normal_rands = generate_ttx(cfg.num_tasks, TX_AGENT, 0.1)
+        for t in range(0, cfg.num_tasks):
+            task = generate_task(cfg, "Agent", normal_rands[t])
+            s.add_tasks(task)
 
-        return pipelines
+        return s
+
+
+    def generate_async_pipeline(self) -> List[Pipeline]:
+        pipeline = Pipeline()
+        pipeline.add_stages(self.generate_async_stage())
+        pipeline.add_stages(self.generate_async_stage())
+        return pipeline
+
+
+    def generate_final_stage(self) -> List[Pipeline]:
+        """Generate a stage with the required number of each type of task.
+        """
+        s = Stage()
+        s.name = "FinalStage"
+
+        # Preprocessing tasks
+        cfg = self.cfg.machine_learning_stage
+        normal_rands = generate_ttx(cfg.num_tasks, TX_PREPROC, 0.5)
+        for t in range(0, cfg.num_tasks):
+            s.add_tasks(generate_task(cfg, "Preproc", normal_rands[t]))
+
+        # ML tasks
+        cfg = self.cfg.machine_learning_stage
+        normal_rands = generate_ttx(cfg.num_tasks, TX_ML, 0.5)
+        for t in range(0, cfg.num_tasks):
+            s.add_tasks(generate_task(cfg, "ML", normal_rands[t]))
+        
+        # Agent tasks
+        cfg = self.cfg.agent_stage
+        normal_rands = generate_ttx(cfg.num_tasks, TX_AGENT, 0.1)
+        for t in range(0, cfg.num_tasks):
+            task = generate_task(cfg, "Agent", normal_rands[t])
+            s.add_tasks(task)
+
+        return s
+
+
+    def generate_final_pipeline(self) -> List[Pipeline]:
+        pipeline = Pipeline()
+        pipeline.add_stages(self.generate_final_stage())
+        return pipeline
+
+
 
     def mlana_pipeline(self) -> List[Pipeline]:
         pipelines = []
@@ -106,6 +193,8 @@ class AsyncPipelineManager:
 
         for _ in range(num_models):
             self.pipeline = Pipeline()
+            pre_stage = self.generate_preproc_stage()
+            self.pipeline.add_stages(pre_stage)
             ml_stage = self.generate_mlana_stage()
             self.pipeline.add_stages(ml_stage)
             ana_stage = self.generate_agent_stage()

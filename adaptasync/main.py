@@ -125,23 +125,25 @@ if __name__ == "__main__":
 
     pipeline_manager = AsyncPipelineManager(cfg)
 
-    # Iter-1: simulations only
-    sim_pipe = pipeline_manager.sim_pipeline_full()
-    appman.workflow = set(sim_pipe)
+    # Run Simulation first
+    sim_pipeline_init = pipeline_manager.generate_sim_pipeline()
+    appman.workflow = [sim_pipeline_init]
+    appman.run()
+
+    asynch_pipeline = pipeline_manager.generate_async_pipeline()
+    appman.workflow = [asynch_pipeline]
     appman.run()
 
     # Iter-2:
-    for _ in range(0, 2):
-        mlana_pipe = pipeline_manager.mlana_pipeline()
-        sim_pipe = pipeline_manager.sim_pipeline_full()
-        appman.workflow = set(mlana_pipe + sim_pipe)
-        appman.run()
+    # for _ in range(0, 2):
+    #     mlana_pipe = pipeline_manager.mlana_pipeline()
+    #     sim_pipe = pipeline_manager.generate_sim_pipeline()
+    #     appman.workflow = set(mlana_pipe + sim_pipe)
+    #     appman.run()
 
-    # Iter-n: finish ML+Ana
-    mlana_pipe = pipeline_manager.mlana_pipeline()
-
-    # Assign pipelines
-    appman.workflow = mlana_pipe
+    # Finish with ML+Ana
+    final_pipeline = pipeline_manager.generate_final_pipeline()
+    appman.workflow = [final_pipeline]
     appman.run()
 
     appman.terminate()

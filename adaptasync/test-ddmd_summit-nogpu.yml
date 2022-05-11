@@ -1,7 +1,7 @@
 resource: ornl.summit
 queue: batch
 schema_: local
-walltime_min: 120
+walltime_min: 30
 cpus_per_node: 42
 gpus_per_node: 6
 project: bip216
