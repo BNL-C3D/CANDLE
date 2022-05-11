@@ -130,8 +130,14 @@ if __name__ == "__main__":
     appman.workflow = [sim_pipeline_init]
     appman.run()
 
-    asynch_pipeline = pipeline_manager.generate_async_pipeline()
-    appman.workflow = [asynch_pipeline]
+    mlana_pipeline = pipeline_manager.generate_final_pipeline()
+    sim_pipeline = pipeline_manager.generate_sim_pipeline()
+    appman.workflow = [mlana_pipeline + sim_pipeline]
+    appman.run()
+
+    mlana_pipeline2 = pipeline_manager.generate_final_pipeline()
+    sim_pipeline2 = pipeline_manager.generate_sim_pipeline()
+    appman.workflow = [mlana_pipeline2 + sim_pipeline2]
     appman.run()
 
     # Iter-2:

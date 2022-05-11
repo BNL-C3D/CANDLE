@@ -15,13 +15,13 @@ molecular_dynamics_stage:
         processes: 1
         process_type: null
         threads_per_process: 4
-        thread_type: null
+        thread_type: OpenMP
     gpu_reqs:
         processes: 1
         process_type: null
         threads_per_process: 1
         thread_type: CUDA
-    num_tasks: 96
+    num_tasks: 15
 
 aggregation_stage:
     pre_exec: []
@@ -37,7 +37,7 @@ aggregation_stage:
         process_type: null
         threads_per_process: 0
         thread_type: null
-    num_tasks: 42
+    num_tasks: 10
 
 machine_learning_stage:
     pre_exec: []
@@ -69,4 +69,4 @@ agent_stage:
         process_type: null
         threads_per_process: 1
         thread_type: CUDA
-    num_tasks: 16
+    num_tasks: 4
