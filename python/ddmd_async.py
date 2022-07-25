@@ -26,8 +26,10 @@ class PipelineManager:
         self.cfg = cfg
 
 
-    def generate_pipeline(self) -> List[Pipeline]:
+    def generate_pipeline_seq(self) -> List[Pipeline]:
         """ Generate a single pipeline comprising all stages.
+
+        This will execute the workflow sequentially.
         """
         # Create a list of stage objects
         stages = []
@@ -78,8 +80,10 @@ class PipelineManager:
         return pipeline
 
 
-    def generate_pipelines(self) -> List[Pipeline]:
+    def generate_pipelines_async(self) -> List[Pipeline]:
         """ Generate a list of pipelines.
+
+        This will execute stages asynchronously.
         """
         pipelines = [
             self.generate_molecular_dynamics_pipeline(),
