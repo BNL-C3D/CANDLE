@@ -7,7 +7,7 @@ from pydantic import validator
 from pydantic import BaseSettings as _BaseSettings
 import radical.utils as ru
 from radical.entk import AppManager
-from ddmd_async import AsyncPipelineManager
+from ddmd_async_split import AsyncPipelineManager
 
 _T = TypeVar("_T")
 
@@ -126,37 +126,42 @@ if __name__ == "__main__":
     pipeline_manager = AsyncPipelineManager(cfg)
 
 
-    do_separate = False
+    do_separate = True
     if do_separate:
         # Simulation-only pipeline to produce data for upstream
         # (preproc, ML, agent) tasks
-        sim_pipeline_init1 = pipeline_manager.generate_sim_pipeline()
-        sim_pipeline_init2 = pipeline_manager.generate_sim_pipeline()
-        appman.workflow = set([sim_pipeline_init1]+[sim_pipeline_init2])
+        sim_pipeline_init = pipeline_manager.generate_sim_pipelines()
+        appman.workflow = sim_pipeline_init
         appman.run()
 
         # Two pipelines: one for preproc+ML+agent to run on first set
         # of simulations, and another to produce next set of simulations
         mlana_pipeline1 = pipeline_manager.generate_final_pipeline()
+        sim_pipelines1 = pipeline_manager.generate_sim_pipelines()
+        appman.workflow = set([mlana_pipeline1] + sim_pipelines1)
+        appman.run()
+
+        # Two pipelines: one for preproc+ML+agent to run on first set
+        # of simulations, and another to produce next set of simulations
         mlana_pipeline2 = pipeline_manager.generate_final_pipeline()
-        sim_pipeline = pipeline_manager.generate_sim_pipeline()
-        appman.workflow = set([mlana_pipeline1] + [mlana_pipeline2] + [sim_pipeline])
+        sim_pipelines2 = pipeline_manager.generate_sim_pipelines()
+        appman.workflow = set([mlana_pipeline2] + sim_pipelines2)
         appman.run()
 
         # Last set of pipelines to execute. One is preproc+ML+agent
         # to run on previous simulation output; other comprises a
         # simulation stage followed by preproc+ML+agent for those
         # simulations.
-        mlana_pipeline = pipeline_manager.generate_final_pipeline()
-        complete_pipeline = pipeline_manager.generate_complete_pipeline()
-        appman.workflow = set([mlana_pipeline] + [complete_pipeline])
-        appman.run()
+        # mlana_pipeline = pipeline_manager.generate_final_pipeline()
+        # complete_pipeline = pipeline_manager.generate_complete_pipeline()
+        # appman.workflow = [mlana_pipeline]
+        # appman.run()
 
         # Finish with preproc+ML+agent, running on last set of
         # simulation data
-        # final_pipeline = pipeline_manager.generate_final_pipeline()
-        # appman.workflow = [final_pipeline]
-        # appman.run()
+        final_pipeline = pipeline_manager.generate_final_pipeline()
+        appman.workflow = [final_pipeline]
+        appman.run()
 
     else:
         # This pipeline has the following stages:

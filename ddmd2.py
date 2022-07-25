@@ -68,19 +68,24 @@ class DDMD(object):
         self._lock           = mt.RLock()
         self._tasks          = {ttype: dict() for ttype in self.TASK_TYPES}
 
+        self._iter           = 0
+
         # silence RP reporter, use own
-        os.environ['RADICAL_REPORT'] = 'false'
+        # os.environ['RADICAL_REPORT'] = 'false'
         self._rep = ru.Reporter('ddmd')
         self._rep.title('DDMD')
 
         # RP setup
-        self._rep.info('starting RP session')
+        # self._rep.info('starting RP session')
         self._session = rp.Session()
         self._pmgr    = rp.PilotManager(session=self._session)
         self._tmgr    = rp.TaskManager(session=self._session)
 
-        pdesc = rp.PilotDescription({'resource': 'local.localhost',
-                                     'runtime' : 30,
+        pdesc = rp.PilotDescription({'resource': 'ornl.summit',
+                                     'project' : 'bip216',
+                                     'schema'  : 'local',
+                                     'queue'   : 'batch',
+                                     'runtime' : 10,
                                      'cores'   : self._cores})
         self._pilot = self._pmgr.submit_pilots(pdesc)
 
@@ -145,7 +150,7 @@ class DDMD(object):
         submit initial set of MD similation tasks
         '''
 
-        self._rep.info('submit MD simulations')
+        # self._rep.info('submit MD simulations')
 
         # reset bookkeeping
         self._aggregated = 0
@@ -366,7 +371,9 @@ class DDMD(object):
         self._cancel_tasks(to_cancel)
 
         # restart execution
-        self.start()
+        if self._iter > 1:
+            self._iter += 1
+            self.start()
 
 
 # ------------------------------------------------------------------------------
@@ -378,9 +385,11 @@ if __name__ == '__main__':
     try:
         ddmd.start()
 
-        while True:
+        while ddmd._iter < 2:
             ddmd.dump()
-            time.sleep(1)
+            time.sleep(3)
+
+        # ddmd._tmgr.wait_tasks()
 
     finally:
         ddmd.close()

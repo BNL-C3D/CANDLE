@@ -1,11 +1,11 @@
 resource: ornl.summit
 queue: batch
 schema_: local
-walltime_min: 120
+walltime_min: 10
 cpus_per_node: 42
 gpus_per_node: 6
 project: bip216
-num_nodes: 2
+num_nodes: 1
 
 molecular_dynamics_stage:
     pre_exec: []
@@ -21,7 +21,7 @@ molecular_dynamics_stage:
         process_type: null
         threads_per_process: 1
         thread_type: CUDA
-    num_tasks: 15
+    num_tasks: 6
 
 aggregation_stage:
     pre_exec: []
@@ -30,21 +30,21 @@ aggregation_stage:
     cpu_reqs:
         processes: 1
         process_type: null
-        threads_per_process: 1
+        threads_per_process: 4
         thread_type: null
     gpu_reqs:
         processes: 0
         process_type: null
         threads_per_process: 0
         thread_type: null
-    num_tasks: 10
+    num_tasks: 2
 
 machine_learning_stage:
     pre_exec: []
     executable: '/usr/bin/sleep'
     arguments: ['1']
     cpu_reqs:
-        processes: 4
+        processes: 1
         process_type: null
         threads_per_process: 4
         thread_type: OpenMP
@@ -60,13 +60,13 @@ agent_stage:
     executable: '/usr/bin/sleep'
     arguments: ['1']
     cpu_reqs:
-        processes: 42
+        processes: 1
         process_type: null
-        threads_per_process: 1
+        threads_per_process: 4
         thread_type: OpenMP
     gpu_reqs:
-        processes: 6
+        processes: 1
         process_type: null
-        threads_per_process: 1
+        threads_per_process: 2
         thread_type: CUDA
-    num_tasks: 4
+    num_tasks: 1

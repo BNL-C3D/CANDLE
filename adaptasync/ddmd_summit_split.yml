@@ -21,7 +21,7 @@ molecular_dynamics_stage:
         process_type: null
         threads_per_process: 1
         thread_type: CUDA
-    num_tasks: 95
+    num_tasks: 6
 
 aggregation_stage:
     pre_exec: []
@@ -30,14 +30,14 @@ aggregation_stage:
     cpu_reqs:
         processes: 1
         process_type: null
-        threads_per_process: 32
+        threads_per_process: 4
         thread_type: null
     gpu_reqs:
         processes: 0
         process_type: null
         threads_per_process: 0
         thread_type: null
-    num_tasks: 16
+    num_tasks: 11
 
 machine_learning_stage:
     pre_exec: []
@@ -45,7 +45,7 @@ machine_learning_stage:
     arguments: ['1']
     cpu_reqs:
         processes: 1
-        process_type: null
+        process_type: MPI
         threads_per_process: 4
         thread_type: OpenMP
     gpu_reqs:
@@ -53,7 +53,7 @@ machine_learning_stage:
         process_type: null
         threads_per_process: 1
         thread_type: CUDA
-    num_tasks: 1
+    num_tasks: 6
 
 agent_stage:
     pre_exec: []
@@ -62,11 +62,11 @@ agent_stage:
     cpu_reqs:
         processes: 1
         process_type: null
-        threads_per_process: 32
+        threads_per_process: 8
         thread_type: OpenMP
     gpu_reqs:
         processes: 1
         process_type: null
         threads_per_process: 1
         thread_type: CUDA
-    num_tasks: 95
+    num_tasks: 96
